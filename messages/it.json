@@ -1,0 +1,159 @@
+{
+  "hero": {
+    "brand": "Luna Legal Lab",
+    "navigation": {
+      "about": "Studio",
+      "practiceAreas": "Aree di attività",
+      "method": "Metodo",
+      "lawyer": "Avvocato"
+    },
+    "headerCta": "Richiedi consulenza",
+    "badge": "Palma di Maiorca | Diritto penale e tecnologia",
+    "title": "Luna Legal Lab",
+    "subtitle": "Specialisti in cybercrime e diritto tecnologico",
+    "description": "Studio legale a Palma di Maiorca specializzato in diritto penale, reati informatici e intelligenza artificiale.",
+    "primaryCta": "Richiedi consulenza",
+    "secondaryCta": "Scopri le aree di attività",
+    "focus": {
+      "title": "Approccio",
+      "items": [
+        "Difesa penale con una reale comprensione dell’ambiente digitale.",
+        "Assistenza strategica, riservata e chiara.",
+        "Consulenza in materia di tecnologia, dati e intelligenza artificiale."
+      ]
+    }
+  },
+  "about": {
+    "eyebrow": "Cos'è Luna Legal Lab",
+    "title": "Uno studio pensato per le sfide legali del presente.",
+    "description": "Luna Legal Lab nasce come evoluzione del diritto tradizionale verso un modello adattato alle attuali sfide tecnologiche.",
+    "paragraphs": [
+      "Lo studio combina la precisione del diritto penale con una prospettiva specializzata sugli ambienti digitali, sulle prove elettroniche e sui nuovi rischi normativi.",
+      "L'approccio è semplice: consulenza legale chiara, strategica e contemporanea per persone, professionisti e organizzazioni che necessitano di risposte concrete a problematiche legali legate alla tecnologia."
+    ],
+    "values": [
+      {
+        "title": "Rigorosità penale",
+        "text": "Analisi giuridica solida per questioni complesse, con attenzione a procedura, strategia e tutela del cliente."
+      },
+      {
+        "title": "Visione tecnologica",
+        "text": "Comprensione reale del contesto digitale per affrontare prove elettroniche, piattaforme, dati e intelligenza artificiale."
+      },
+      {
+        "title": "Comunicazione chiara",
+        "text": "Spiegazioni dirette, decisioni consapevoli e accompagnamento costante durante tutto il processo."
+      }
+    ]
+  },
+  "practiceAreas": {
+    "eyebrow": "Aree di specializzazione",
+    "title": "Questioni penali e tecnologiche affrontate con profondità.",
+    "description": "Una pratica focalizzata su ambiti in cui diritto e tecnologia si intrecciano direttamente.",
+    "items": [
+      {
+        "title": "Cybercrime",
+        "text": "Assistenza legale in frodi online, accessi abusivi, furto d’identità, molestie digitali e controversie legate a prove elettroniche."
+      },
+      {
+        "title": "Diritto Penale",
+        "text": "Difesa e strategia processuale con un approccio rigoroso, orientato alla tutela dei diritti, della reputazione e della sicurezza giuridica."
+      },
+      {
+        "title": "Diritto Tecnologico",
+        "text": "Consulenza su rischi digitali, compliance, contratti tecnologici e responsabilità in ambienti connessi."
+      },
+      {
+        "title": "Intelligenza Artificiale",
+        "text": "Assistenza nell’utilizzo aziendale dell’IA, governance, prevenzione dei rischi e inquadramento giuridico di nuovi sistemi automatizzati."
+      }
+    ]
+  },
+  "method": {
+    "eyebrow": "Metodo di lavoro",
+    "title": "Un approccio equilibrato per casi che richiedono precisione.",
+    "description": "Ogni caso viene affrontato con criterio penale, comprensione digitale e un percorso chiaro fin dall’inizio.",
+    "steps": [
+      {
+        "title": "Analisi",
+        "text": "Studio del caso, del contesto tecnologico, della documentazione disponibile e dei possibili scenari giuridici."
+      },
+      {
+        "title": "Strategia",
+        "text": "Definizione della linea di azione, delle priorità processuali e del piano di difesa o consulenza."
+      },
+      {
+        "title": "Esecuzione",
+        "text": "Attuazione rigorosa con monitoraggio costante, comunicazione chiara e attenzione a ogni fase del procedimento."
+      }
+    ]
+  },
+  "aboutLawyer": {
+    "imagePlaceholder": {
+      "eyebrow": "Spazio riservato",
+      "title": "Ritratto professionale",
+      "text": "Questa sezione è predisposta per inserire l'immagine dell’avvocato o dello studio."
+    },
+    "eyebrow": "Sull'avvocato",
+    "title": "Difesa penale e tecnologica con un approccio contemporaneo.",
+    "description": "Avvocato specializzato in diritto penale e tecnologico con esperienza in cybercrime e controversie legali digitali.",
+    "paragraphs": [
+      "L’approccio combina un’analisi giuridica solida, la comprensione dell’ambiente digitale e un rapporto diretto con ogni cliente, soprattutto nei casi in cui la complessità tecnica richiede una chiara traduzione in termini legali.",
+      "Questa sezione è pronta per essere ampliata con biografia, fotografia, casi rappresentativi o credenziali professionali."
+    ],
+    "pillars": [
+      "Esperienza in cybercrime e controversie legali digitali.",
+      "Visione integrata di diritto penale, tecnologia e reputazione.",
+      "Predisposto per includere credenziali dettagliate e un profilo completo nella fase successiva."
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contatto",
+    "title": "Un primo passo chiaro, discreto e professionale.",
+    "description": "Se hai bisogno di assistenza in una questione penale o tecnologica, il sito è pronto per gestire una prima richiesta.",
+    "details": [
+      {
+        "label": "Sede",
+        "value": "Palma di Maiorca"
+      },
+      {
+        "label": "Email",
+        "value": "hola@lunalegallab.com"
+      },
+      {
+        "label": "Telefono",
+        "value": "+34 000 000 000"
+      }
+    ],
+    "form": {
+      "eyebrow": "Richiedi consulenza",
+      "title": "Raccontaci il tuo caso",
+      "description": "Modulo frontend pronto per la fase successiva di integrazione.",
+      "nameLabel": "Nome",
+      "namePlaceholder": "Il tuo nome",
+      "emailLabel": "Email",
+      "emailPlaceholder": "tu@email.com",
+      "messageLabel": "Messaggio",
+      "messagePlaceholder": "Descrivi brevemente come possiamo aiutarti.",
+      "submit": "Invia",
+      "helperText": "Interfaccia pronta per essere collegata a email, CRM o backend.",
+      "successMessage": "Messaggio acquisito. Il prossimo passo sarà collegarlo a un sistema reale di invio."
+    }
+  },
+  "footer": {
+    "brand": "Luna Legal Lab",
+    "description": "Studio legale a Palma di Maiorca specializzato in diritto penale, cybercrime e diritto tecnologico.",
+    "cityLabel": "Città",
+    "city": "Palma di Maiorca",
+    "emailLabel": "Email",
+    "email": "hola@lunalegallab.com",
+    "phoneLabel": "Telefono",
+    "phone": "+34 000 000 000",
+    "copyright": "{year} Luna Legal Lab.",
+    "note": "Base del sito pronta per ulteriori sviluppi."
+  },
+  "seo": {
+    "title": "Luna Legal Lab",
+    "description": "Studio legale a Palma di Maiorca specializzato in cybercrime, diritto penale e diritto tecnologico"
+  }
+}

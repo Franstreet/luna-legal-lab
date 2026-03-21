@@ -1,0 +1,159 @@
+{
+  "hero": {
+    "brand": "Luna Legal Lab",
+    "navigation": {
+      "about": "Kanzlei",
+      "practiceAreas": "Tätigkeitsbereiche",
+      "method": "Vorgehensweise",
+      "lawyer": "Anwalt"
+    },
+    "headerCta": "Beratung anfragen",
+    "badge": "Palma de Mallorca | Strafrecht und Technologie",
+    "title": "Luna Legal Lab",
+    "subtitle": "Spezialisten für Cyberkriminalität und Technologierecht",
+    "description": "Kanzlei in Palma de Mallorca, spezialisiert auf Strafrecht, Cyberkriminalität und künstliche Intelligenz.",
+    "primaryCta": "Beratung anfragen",
+    "secondaryCta": "Tätigkeitsbereiche ansehen",
+    "focus": {
+      "title": "Fokus",
+      "items": [
+        "Strafverteidigung mit fundiertem Verständnis des digitalen Umfelds.",
+        "Strategische, vertrauliche und klare Begleitung.",
+        "Beratung in den Bereichen Technologie, Daten und künstliche Intelligenz."
+      ]
+    }
+  },
+  "about": {
+    "eyebrow": "Über Luna Legal Lab",
+    "title": "Eine Kanzlei für die rechtlichen Herausforderungen der Gegenwart.",
+    "description": "Luna Legal Lab entsteht als Weiterentwicklung des traditionellen Rechts hin zu einem Modell, das an die aktuellen technologischen Herausforderungen angepasst ist.",
+    "paragraphs": [
+      "Die Kanzlei verbindet die Präzision des Strafrechts mit einer spezialisierten Perspektive auf digitale Umgebungen, elektronische Beweismittel und neue regulatorische Risiken.",
+      "Der Ansatz ist klar: sachliche, strategische und zeitgemäße Rechtsberatung für Privatpersonen, Fachleute und Organisationen, die klare Antworten auf rechtliche Probleme im Zusammenhang mit Technologie benötigen."
+    ],
+    "values": [
+      {
+        "title": "Strafrechtliche Präzision",
+        "text": "Fundierte juristische Analyse für komplexe Fälle mit Fokus auf Verfahren, Strategie und Schutz der Mandanten."
+      },
+      {
+        "title": "Technologische Perspektive",
+        "text": "Tiefes Verständnis des digitalen Kontexts zur Bewertung elektronischer Beweise, Plattformen, Daten und künstlicher Intelligenz."
+      },
+      {
+        "title": "Klare Kommunikation",
+        "text": "Direkte Erklärungen, fundierte Entscheidungen und persönliche Begleitung während des gesamten Prozesses."
+      }
+    ]
+  },
+  "practiceAreas": {
+    "eyebrow": "Tätigkeitsbereiche",
+    "title": "Strafrechtliche und technologische Fragestellungen mit Tiefgang bearbeitet.",
+    "description": "Eine Praxis, die sich auf Bereiche konzentriert, in denen Recht und Technologie unmittelbar aufeinandertreffen.",
+    "items": [
+      {
+        "title": "Cyberkriminalität",
+        "text": "Rechtsberatung bei Online-Betrug, unbefugtem Zugriff, Identitätsdiebstahl, digitaler Belästigung und Konflikten im Zusammenhang mit elektronischen Beweismitteln."
+      },
+      {
+        "title": "Strafrecht",
+        "text": "Verteidigung und prozessuale Strategie mit einem konsequenten Ansatz zum Schutz von Rechten, Reputation und Rechtssicherheit."
+      },
+      {
+        "title": "Technologierecht",
+        "text": "Beratung zu digitalen Risiken, Compliance, Technologieverträgen und Haftung in vernetzten Umgebungen."
+      },
+      {
+        "title": "Künstliche Intelligenz",
+        "text": "Begleitung bei unternehmerischer Nutzung von KI, Governance, Risikoprävention und rechtlicher Einordnung neuer automatisierter Systeme."
+      }
+    ]
+  },
+  "method": {
+    "eyebrow": "Arbeitsweise",
+    "title": "Ein strukturierter Ansatz für Fälle, die Präzision erfordern.",
+    "description": "Jeder Fall wird mit strafrechtlicher Methodik, digitalem Verständnis und einem klaren Fahrplan von Anfang an bearbeitet.",
+    "steps": [
+      {
+        "title": "Analyse",
+        "text": "Prüfung des Falls, des technologischen Kontexts, der verfügbaren Unterlagen und möglicher rechtlicher Szenarien."
+      },
+      {
+        "title": "Strategie",
+        "text": "Festlegung des Vorgehens, der prozessualen Prioritäten und des Verteidigungs- oder Beratungsplans."
+      },
+      {
+        "title": "Umsetzung",
+        "text": "Konsequente Durchführung mit enger Begleitung, klarer Kommunikation und Aufmerksamkeit für jede Phase des Verfahrens."
+      }
+    ]
+  },
+  "aboutLawyer": {
+    "imagePlaceholder": {
+      "eyebrow": "Reservierter Bereich",
+      "title": "Professionelles Porträt",
+      "text": "Dieser Bereich ist vorbereitet, um das Bild des Anwalts oder der Kanzlei einzufügen."
+    },
+    "eyebrow": "Über den Anwalt",
+    "title": "Strafrechtliche und technologische Verteidigung mit zeitgemäßem Ansatz.",
+    "description": "Rechtsanwalt mit Spezialisierung im Strafrecht und Technologierecht, mit Erfahrung in Cyberkriminalität und digitalen Rechtsstreitigkeiten.",
+    "paragraphs": [
+      "Der Ansatz verbindet fundierte juristische Analyse mit einem Verständnis des digitalen Umfelds und einer persönlichen Betreuung jedes Mandanten, insbesondere in Fällen, in denen technische Komplexität eine klare rechtliche Einordnung erfordert.",
+      "Dieser Bereich ist vorbereitet, um mit Biografie, Foto, Referenzfällen oder beruflichen Qualifikationen erweitert zu werden."
+    ],
+    "pillars": [
+      "Erfahrung in Cyberkriminalität und digitalen Rechtsstreitigkeiten.",
+      "Verknüpfung von Strafrecht, Technologie und Reputationsschutz.",
+      "Vorbereitet für die Ergänzung detaillierter Qualifikationen und eines vollständigen Profils in der nächsten Phase."
+    ]
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Ein klarer, diskreter und professioneller erster Schritt.",
+    "description": "Wenn Sie Unterstützung in einer strafrechtlichen oder technologischen Angelegenheit benötigen, ist die Website bereit, eine erste Anfrage zu ermöglichen.",
+    "details": [
+      {
+        "label": "Standort",
+        "value": "Palma de Mallorca"
+      },
+      {
+        "label": "Email",
+        "value": "hola@lunalegallab.com"
+      },
+      {
+        "label": "Telefon",
+        "value": "+34 000 000 000"
+      }
+    ],
+    "form": {
+      "eyebrow": "Beratung anfragen",
+      "title": "Schildern Sie uns Ihren Fall",
+      "description": "Frontend-Formular bereit für die nächste Integrationsphase.",
+      "nameLabel": "Name",
+      "namePlaceholder": "Ihr Name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "ihre@email.com",
+      "messageLabel": "Nachricht",
+      "messagePlaceholder": "Beschreiben Sie kurz, wobei wir Ihnen helfen können.",
+      "submit": "Senden",
+      "helperText": "Schnittstelle bereit zur Anbindung an E-Mail, CRM oder Backend.",
+      "successMessage": "Nachricht erfasst. Der nächste Schritt ist die Anbindung an ein reales Versandsystem."
+    }
+  },
+  "footer": {
+    "brand": "Luna Legal Lab",
+    "description": "Kanzlei in Palma de Mallorca, spezialisiert auf Strafrecht, Cyberkriminalität und Technologierecht.",
+    "cityLabel": "Stadt",
+    "city": "Palma de Mallorca",
+    "emailLabel": "Email",
+    "email": "hola@lunalegallab.com",
+    "phoneLabel": "Telefon",
+    "phone": "+34 000 000 000",
+    "copyright": "{year} Luna Legal Lab.",
+    "note": "Webbasis bereit für weitere Entwicklung."
+  },
+  "seo": {
+    "title": "Luna Legal Lab",
+    "description": "Kanzlei in Palma de Mallorca, spezialisiert auf Cyberkriminalität, Strafrecht und Technologierecht"
+  }
+}
