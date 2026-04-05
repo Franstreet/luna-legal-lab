@@ -35,7 +35,7 @@ export function LanguageSwitcher({ locale }: LanguageSwitcherProps) {
   }
 
   return (
-    <div className="inline-flex items-center rounded-full border border-white/15 bg-white/6 p-1 backdrop-blur-sm">
+    <div className="inline-flex min-w-0 items-center rounded-full border border-white/15 bg-white/6 p-0.5 backdrop-blur-sm sm:p-1">
       {locales.map((item) => {
         const isActive = item === locale;
 
@@ -47,7 +47,7 @@ export function LanguageSwitcher({ locale }: LanguageSwitcherProps) {
             aria-label={localeNames[item]}
             onClick={() => handleLanguageChange(item)}
             className={[
-              "rounded-full px-3 py-2 text-[11px] font-semibold uppercase tracking-[0.28em]",
+              "rounded-full px-2 py-1.5 text-[10px] font-semibold uppercase tracking-[0.18em] sm:px-3 sm:py-2 sm:text-[11px] sm:tracking-[0.28em]",
               isActive
                 ? "bg-secondary text-primary shadow-[0_10px_30px_rgba(0,0,0,0.16)]"
                 : "text-white/72 hover:text-secondary",

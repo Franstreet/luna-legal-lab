@@ -28,7 +28,7 @@ export function Hero({ content, locale }: HeroProps) {
       <div className="absolute inset-x-0 bottom-0 h-px bg-white/10" />
 
       <div className="relative mx-auto flex min-h-[100svh] w-full max-w-6xl flex-col px-6 sm:px-8 lg:px-12">
-        <header className="flex flex-wrap items-center justify-between gap-4 py-6 sm:gap-6">
+        <header className="grid grid-cols-[auto_1fr] items-center gap-3 py-6 md:flex md:flex-wrap md:items-center md:justify-between md:gap-6">
           <a
             href="#top"
             className="shrink-0"
@@ -37,7 +37,7 @@ export function Hero({ content, locale }: HeroProps) {
               src={brandWordmark}
               alt={content.brand}
               priority
-              className="h-auto w-[56px] sm:w-[64px]"
+              className="h-auto w-[42px] sm:w-[64px]"
             />
           </a>
 
@@ -53,11 +53,11 @@ export function Hero({ content, locale }: HeroProps) {
             ))}
           </nav>
 
-          <div className="ml-auto flex items-center gap-3">
+          <div className="flex min-w-0 items-center justify-end gap-2 md:ml-auto md:gap-3">
             <LanguageSwitcher locale={locale} />
             <a
               href="#contact"
-              className="inline-flex items-center rounded-full border border-white/15 px-5 py-2.5 text-sm font-semibold text-white hover:border-secondary hover:bg-white/6 hover:text-secondary"
+              className="inline-flex shrink-0 items-center rounded-full border border-white/15 px-3 py-2 text-[13px] font-semibold text-white hover:border-secondary hover:bg-white/6 hover:text-secondary sm:px-5 sm:py-2.5 sm:text-sm"
             >
               {content.headerCta}
             </a>
