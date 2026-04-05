@@ -1,7 +1,10 @@
+import Image from "next/image";
+
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { aloeveraSans } from "@/lib/fonts";
 import type { Dictionary } from "@/lib/i18n";
 import type { Locale } from "@/lib/i18n-config";
+import brandWordmark from "@/public/images/isotipo_beige.webp";
 
 const navigation = [
   { key: "about", href: "#about" },
@@ -28,9 +31,14 @@ export function Hero({ content, locale }: HeroProps) {
         <header className="flex flex-wrap items-center justify-between gap-4 py-6 sm:gap-6">
           <a
             href="#top"
-            className="text-sm font-semibold uppercase tracking-[0.32em] text-white/80"
+            className="shrink-0"
           >
-            {content.brand}
+            <Image
+              src={brandWordmark}
+              alt={content.brand}
+              priority
+              className="h-auto w-[56px] sm:w-[64px]"
+            />
           </a>
 
           <nav className="hidden items-center gap-8 text-sm text-white/65 md:flex">
