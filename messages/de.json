@@ -118,11 +118,11 @@
       },
       {
         "label": "Email",
-        "value": "hola@lunalegallab.com"
+        "value": "eduardo@lunalegallab.com"
       },
       {
         "label": "Telefon",
-        "value": "+34 000 000 000"
+        "value": "+34 601 349 061"
       }
     ],
     "form": {
@@ -146,9 +146,9 @@
     "cityLabel": "Stadt",
     "city": "Palma de Mallorca",
     "emailLabel": "Email",
-    "email": "hola@lunalegallab.com",
+    "email": "eduardo@lunalegallab.com",
     "phoneLabel": "Telefon",
-    "phone": "+34 000 000 000",
+    "phone": "+34 601 349 061",
     "copyright": "{year} Luna Legal Lab.",
     "note": "Webbasis bereit für weitere Entwicklung."
   },
