@@ -3,121 +3,125 @@
     "brand": "Luna Legal Lab",
     "navigation": {
       "about": "Kanzlei",
-      "practiceAreas": "Tätigkeitsbereiche",
-      "method": "Vorgehensweise",
-      "lawyer": "Anwalt"
+      "practiceAreas": "Spezialisierung",
+      "method": "Methode",
+      "lawyer": "CEO"
     },
     "headerCta": "Beratung anfragen",
-    "badge": "Palma de Mallorca | Strafrecht und Technologie",
-    "title": "Luna Legal Lab",
-    "subtitle": "Spezialisten für Cyberkriminalität und Technologierecht",
-    "description": "Kanzlei in Palma de Mallorca, spezialisiert auf Strafrecht, Cyberkriminalität und künstliche Intelligenz.",
+    "badge": "Juristische Unterstützung überall auf der Welt",
+    "title": "Strafrecht und Corporate Law",
+    "subtitle": "Strategische Strafverteidigung in technologischen, unternehmerischen und hochkomplexen Zusammenhängen.",
+    "description": "Strategische Rechtsberatung für Mandanten, Unternehmen und Organisationen, die eine konsequente, reputationsbezogene und globale Verteidigung verlangen.",
+    "advisoryLabel": "Beratung",
     "primaryCta": "Beratung anfragen",
-    "secondaryCta": "Tätigkeitsbereiche ansehen",
+    "secondaryCta": "Spezialisierungsbereiche ansehen",
     "focus": {
-      "title": "Fokus",
+      "title": "Ansatz",
       "items": [
-        "Strafverteidigung mit fundiertem Verständnis des digitalen Umfelds.",
-        "Strategische, vertrauliche und klare Begleitung.",
-        "Beratung in den Bereichen Technologie, Daten und künstliche Intelligenz."
+        "Strafverteidigung und strategische Prozessführung.",
+        "Kommunikation, Information und Wahrhaftigkeit.",
+        "Spezialisierte globale Beratung."
       ]
     }
   },
   "about": {
-    "eyebrow": "Über Luna Legal Lab",
-    "title": "Eine Kanzlei für die rechtlichen Herausforderungen der Gegenwart.",
-    "description": "Luna Legal Lab entsteht als Weiterentwicklung des traditionellen Rechts hin zu einem Modell, das an die aktuellen technologischen Herausforderungen angepasst ist.",
+    "eyebrow": "Kanzlei",
+    "title": "Recht und strategische Verteidigung, angepasst an neue rechtliche und gesellschaftliche Szenarien.",
+    "description": "Luna Legal Lab ist aus der Weiterentwicklung des traditionellen Rechts hin zu einem Modell entstanden, das den heutigen juristischen und technologischen Herausforderungen gerecht wird.",
     "paragraphs": [
-      "Die Kanzlei verbindet die Präzision des Strafrechts mit einer spezialisierten Perspektive auf digitale Umgebungen, elektronische Beweismittel und neue regulatorische Risiken.",
-      "Der Ansatz ist klar: sachliche, strategische und zeitgemäße Rechtsberatung für Privatpersonen, Fachleute und Organisationen, die klare Antworten auf rechtliche Probleme im Zusammenhang mit Technologie benötigen."
+      "Der Ansatz ist klar: nüchterne, strategische und zeitgemäße Rechtsberatung für Privatpersonen, Fachleute und Organisationen, die klare Antworten auf die realen Probleme unserer Zeit benötigen.",
+      "Heute kann sich Verteidigung nicht allein auf Gerichte beschränken. Mandanten brauchen eine strategische Antwort in unterschiedlichen Bereichen: Medien, Gesellschaft, Reputation und digitale Umfelder."
     ],
     "values": [
       {
         "title": "Strafrechtliche Präzision",
-        "text": "Fundierte juristische Analyse für komplexe Fälle mit Fokus auf Verfahren, Strategie und Schutz der Mandanten."
+        "text": "Ohne die Essenz klassischer Verteidigung zu verlieren, mit Fokus auf Verfahren, Strategie und Schutz des Mandanten."
       },
       {
-        "title": "Technologische Perspektive",
-        "text": "Tiefes Verständnis des digitalen Kontexts zur Bewertung elektronischer Beweise, Plattformen, Daten und künstlicher Intelligenz."
+        "title": "Technologischer und medialer Blick",
+        "text": "Fundiertes Verständnis des digitalen Kontexts, um Reputation, elektronische Beweise, Plattformen, Daten und Künstliche Intelligenz angemessen einzuordnen."
       },
       {
         "title": "Klare Kommunikation",
-        "text": "Direkte Erklärungen, fundierte Entscheidungen und persönliche Begleitung während des gesamten Prozesses."
+        "text": "Direkte Erklärungen, fundierte Entscheidungen und enge Begleitung während des gesamten Verfahrens. Wir sind ein Team."
       }
     ]
   },
   "practiceAreas": {
-    "eyebrow": "Tätigkeitsbereiche",
-    "title": "Strafrechtliche und technologische Fragestellungen mit Tiefgang bearbeitet.",
-    "description": "Eine Praxis, die sich auf Bereiche konzentriert, in denen Recht und Technologie unmittelbar aufeinandertreffen.",
+    "eyebrow": "Spezialisierungsbereiche",
+    "title": "Strafrecht und Corporate Law",
+    "description": "Eine Spezialisierung auf Bereiche, in denen Recht, Unternehmen und Technologie unmittelbar aufeinandertreffen.",
     "items": [
       {
         "title": "Cyberkriminalität",
-        "text": "Rechtsberatung bei Online-Betrug, unbefugtem Zugriff, Identitätsdiebstahl, digitaler Belästigung und Konflikten im Zusammenhang mit elektronischen Beweismitteln."
+        "text": "Verteidigung und Beratung bei Cyberkriminalität und komplexen digitalen Konflikten. Juristische Unterstützung bei Online-Betrug, unbefugten Zugriffen, Identitätsmissbrauch, digitaler Belästigung und Ermittlungen im Zusammenhang mit elektronischen Beweismitteln."
       },
       {
         "title": "Strafrecht",
-        "text": "Verteidigung und prozessuale Strategie mit einem konsequenten Ansatz zum Schutz von Rechten, Reputation und Rechtssicherheit."
+        "text": "Strafverteidigung und strategische Prozessführung in komplexen Verfahren mit umfassendem Schutz von Rechten, Reputation und Rechtssicherheit."
       },
       {
-        "title": "Technologierecht",
-        "text": "Beratung zu digitalen Risiken, Compliance, Technologieverträgen und Haftung in vernetzten Umgebungen."
+        "title": "Corporate Law - Compliance",
+        "text": "Unternehmensbezogene Beratung zu Compliance, digitalen Risiken, Technologieverträgen und strafrechtlicher Verantwortlichkeit juristischer Personen."
       },
       {
         "title": "Künstliche Intelligenz",
-        "text": "Begleitung bei unternehmerischer Nutzung von KI, Governance, Risikoprävention und rechtlicher Einordnung neuer automatisierter Systeme."
+        "text": "Beratung zu Künstlicher Intelligenz, Governance, Risikoprävention, Verantwortung und rechtlicher Einordnung automatisierter Systeme in unternehmerischen und öffentlichen Umfeldern."
       }
     ]
   },
   "method": {
-    "eyebrow": "Arbeitsweise",
-    "title": "Ein strukturierter Ansatz für Fälle, die Präzision erfordern.",
-    "description": "Jeder Fall wird mit strafrechtlicher Methodik, digitalem Verständnis und einem klaren Fahrplan von Anfang an bearbeitet.",
+    "eyebrow": "Methode",
+    "title": "Strategische Perspektive für eine umfassende Verteidigung.",
+    "description": "Jeder Fall wird juristisch präzise analysiert, um ein klares und belastbares Bild zu erhalten. Anschließend wird eine Strategie auf drei Ebenen entwickelt: technische Verteidigung, Reputation und Kommunikation.",
     "steps": [
       {
-        "title": "Analyse",
-        "text": "Prüfung des Falls, des technologischen Kontexts, der verfügbaren Unterlagen und möglicher rechtlicher Szenarien."
+        "title": "Juristische Analyse",
+        "text": "Jeder Fall wird eingehend geprüft, um Tatsachen, Risiken, rechtliche Szenarien und Reputationsrisiken zu identifizieren."
       },
       {
-        "title": "Strategie",
-        "text": "Festlegung des Vorgehens, der prozessualen Prioritäten und des Verteidigungs- oder Beratungsplans."
+        "title": "Ganzheitliche Strategie",
+        "text": "Es wird ein Fahrplan in drei koordinierten Ebenen entwickelt: technische Verteidigung, Reputation und Kommunikation."
       },
       {
         "title": "Umsetzung",
-        "text": "Konsequente Durchführung mit enger Begleitung, klarer Kommunikation und Aufmerksamkeit für jede Phase des Verfahrens."
+        "text": "Konsequente Umsetzung mit laufender Begleitung, fundierter Entscheidungsfindung und strategischer Anpassung in jeder Phase."
       }
     ]
   },
   "aboutLawyer": {
     "imagePlaceholder": {
-      "eyebrow": "Reservierter Bereich",
-      "title": "Professionelles Porträt",
-      "text": "Dieser Bereich ist vorbereitet, um das Bild des Anwalts oder der Kanzlei einzufügen."
+      "eyebrow": "Unser CEO",
+      "title": "Dr. Eduardo R. Luna Álvarez",
+      "text": "Maßgebliche Persönlichkeit für strategische Strafverteidigung und Corporate-Beratung in komplexen technologischen Umfeldern."
     },
-    "eyebrow": "Über den Anwalt",
-    "title": "Strafrechtliche und technologische Verteidigung mit zeitgemäßem Ansatz.",
-    "description": "Rechtsanwalt mit Spezialisierung im Strafrecht und Technologierecht, mit Erfahrung in Cyberkriminalität und digitalen Rechtsstreitigkeiten.",
+    "eyebrow": "Unser CEO",
+    "title": "Dr. Eduardo R. Luna Álvarez",
+    "description": "Spezialist für strategische Strafverteidigung, Cyberkriminalität und Künstliche Intelligenz.",
     "paragraphs": [
-      "Der Ansatz verbindet fundierte juristische Analyse mit einem Verständnis des digitalen Umfelds und einer persönlichen Betreuung jedes Mandanten, insbesondere in Fällen, in denen technische Komplexität eine klare rechtliche Einordnung erfordert.",
-      "Dieser Bereich ist vorbereitet, um mit Biografie, Foto, Referenzfällen oder beruflichen Qualifikationen erweitert zu werden."
+      "Doktor der Rechtswissenschaften, Kriminologe mit Spezialisierung auf Künstliche Intelligenz und eine Referenz im Bereich der Strafverteidigung in komplexen, technologischen und unternehmerischen Umfeldern.",
+      "Rechtsanwalt mit Schwerpunkt Strafrecht. Kriminologe mit Spezialisierung auf Künstliche Intelligenz und Cyberkriminalität. Master in Sicherheit und Sicherheitsmanagement. Doktor der Rechtswissenschaften an der Universität der Balearen.",
+      "Assoziierter Professor an der Universität der Balearen. Polizeiausbilder an der Escola Balear d’Administracions Públiques. Mitglied des Beirats verschiedener Organisationen und Körperschaften.",
+      "Internationale Forschungsaufenthalte an der Università degli Studi Guglielmo Marconi (Rom). Autor juristischer Monografien und zahlreicher wissenschaftlicher Artikel in hochrangigen Fachzeitschriften.",
+      "Nationaler Ley-Preis 2021 als bester Strafverteidiger."
     ],
     "pillars": [
-      "Erfahrung in Cyberkriminalität und digitalen Rechtsstreitigkeiten.",
-      "Verknüpfung von Strafrecht, Technologie und Reputationsschutz.",
-      "Vorbereitet für die Ergänzung detaillierter Qualifikationen und eines vollständigen Profils in der nächsten Phase."
+      "Gutachten und Berichte für staatliche Stellen und Polizeibehörden.",
+      "Globale Strafverteidigung mit Spezialisierung auf hochkomplexe Fälle.",
+      "Corporate-Verteidigung und Beratung von Verwaltungsräten und Berufsorganisationen."
     ]
   },
   "contact": {
     "eyebrow": "Kontakt",
-    "title": "Ein klarer, diskreter und professioneller erster Schritt.",
-    "description": "Wenn Sie Unterstützung in einer strafrechtlichen oder technologischen Angelegenheit benötigen, ist die Website bereit, eine erste Anfrage zu ermöglichen.",
+    "title": "Willkommen bei Ihrem neuen juristischen Team.",
+    "description": "Wir betreuen strafrechtliche, unternehmensrechtliche und technologische Angelegenheiten mit einer umfassenden juristischen und strategischen Perspektive.",
     "details": [
       {
-        "label": "Standort",
-        "value": "Palma de Mallorca"
+        "label": "Reichweite",
+        "value": "Internationale juristische Unterstützung"
       },
       {
-        "label": "Email",
+        "label": "E-Mail",
         "value": "eduardo@lunalegallab.com"
       },
       {
@@ -128,32 +132,32 @@
     "form": {
       "eyebrow": "Beratung anfragen",
       "title": "Schildern Sie uns Ihren Fall",
-      "description": "Frontend-Formular bereit für die nächste Integrationsphase.",
+      "description": "Schildern Sie uns Ihre Situation, und wir prüfen den besten Handlungsweg.",
       "nameLabel": "Name",
       "namePlaceholder": "Ihr Name",
-      "emailLabel": "Email",
+      "emailLabel": "E-Mail",
       "emailPlaceholder": "ihre@email.com",
       "messageLabel": "Nachricht",
-      "messagePlaceholder": "Beschreiben Sie kurz, wobei wir Ihnen helfen können.",
+      "messagePlaceholder": "Schildern Sie uns kurz, wie wir Ihnen helfen können.",
       "submit": "Senden",
-      "helperText": "Schnittstelle bereit zur Anbindung an E-Mail, CRM oder Backend.",
-      "successMessage": "Nachricht erfasst. Der nächste Schritt ist die Anbindung an ein reales Versandsystem."
+      "helperText": "Oberfläche bereit, um später E-Mail, CRM oder Backend anzubinden.",
+      "successMessage": "Nachricht in der Oberfläche erfasst. Im nächsten Schritt wird sie an ein reales Versandsystem angebunden."
     }
   },
   "footer": {
     "brand": "Luna Legal Lab",
-    "description": "Kanzlei in Palma de Mallorca, spezialisiert auf Strafrecht, Cyberkriminalität und Technologierecht.",
-    "cityLabel": "Stadt",
-    "city": "Palma de Mallorca",
-    "emailLabel": "Email",
+    "description": "Kanzlei mit Schwerpunkt Strafrecht, Corporate Law, Cyberkriminalität und Technologierecht.",
+    "cityLabel": "Standorte:",
+    "city": "Palma · Madrid · Barcelona · Rom",
+    "emailLabel": "E-Mail",
     "email": "eduardo@lunalegallab.com",
     "phoneLabel": "Telefon",
     "phone": "+34 601 349 061",
     "copyright": "{year} Luna Legal Lab.",
-    "note": "Webbasis bereit für weitere Entwicklung."
+    "note": "Calle Reina Esclaramunda nº1, 2º 1ª, Palma, Islas Baleares"
   },
   "seo": {
-    "title": "Luna Legal Lab",
-    "description": "Kanzlei in Palma de Mallorca, spezialisiert auf Cyberkriminalität, Strafrecht und Technologierecht"
+    "title": "Luna Legal Lab | Strafrecht und Corporate Law",
+    "description": "Kanzlei mit Schwerpunkt Strafrecht, Corporate Law, Cyberkriminalität und Künstliche Intelligenz mit internationaler juristischer Unterstützung."
   }
 }

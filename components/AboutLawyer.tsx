@@ -3,13 +3,22 @@ import Image from "next/image";
 import { Reveal } from "@/components/Reveal";
 import { SectionHeading } from "@/components/SectionHeading";
 import type { Dictionary } from "@/lib/i18n";
+import type { Locale } from "@/lib/i18n-config";
 import lawyerPortrait from "@/public/images/eduardo.webp";
 
 type AboutLawyerProps = {
   content: Dictionary["aboutLawyer"];
+  locale: Locale;
 };
 
-export function AboutLawyer({ content }: AboutLawyerProps) {
+export function AboutLawyer({ content, locale }: AboutLawyerProps) {
+  const pillarsGridClass =
+    locale === "de" ? "mt-10 grid gap-4 sm:grid-cols-2 xl:grid-cols-3" : "mt-10 grid gap-4 sm:grid-cols-3";
+  const pillarTextClass =
+    locale === "de"
+      ? "mt-4 break-words hyphens-auto text-sm leading-6 text-foreground/70"
+      : "mt-4 text-base leading-7 text-foreground/70";
+
   return (
     <section id="lawyer" className="py-24 sm:py-32">
       <div className="mx-auto grid w-full max-w-6xl gap-12 px-6 sm:px-8 lg:grid-cols-[minmax(280px,0.85fr)_minmax(0,1.15fr)] lg:px-12 lg:items-center">
@@ -37,13 +46,22 @@ export function AboutLawyer({ content }: AboutLawyerProps) {
               description={content.description}
             />
 
-            <div className="mt-8 space-y-6 text-lg leading-8 text-foreground/72">
-              {content.paragraphs.map((paragraph) => (
-                <p key={paragraph}>{paragraph}</p>
+            <div className="mt-8 space-y-5">
+              {content.paragraphs.map((paragraph, index) => (
+                <p
+                  key={paragraph}
+                  className={
+                    index === 0
+                      ? "text-xl leading-9 text-foreground/84"
+                      : "text-lg leading-8 text-foreground/72"
+                  }
+                >
+                  {paragraph}
+                </p>
               ))}
             </div>
 
-            <div className="mt-10 grid gap-4 sm:grid-cols-3">
+            <div className={pillarsGridClass}>
               {content.pillars.map((pillar, index) => (
                 <div
                   key={pillar}
@@ -52,7 +70,7 @@ export function AboutLawyer({ content }: AboutLawyerProps) {
                   <p className="text-xs font-semibold uppercase tracking-[0.28em] text-primary/40">
                     {String(index + 1).padStart(2, "0")}
                   </p>
-                  <p className="mt-4 text-base leading-7 text-foreground/70">
+                  <p className={pillarTextClass}>
                     {pillar}
                   </p>
                 </div>

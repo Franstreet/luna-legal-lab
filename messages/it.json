@@ -3,118 +3,122 @@
     "brand": "Luna Legal Lab",
     "navigation": {
       "about": "Studio",
-      "practiceAreas": "Aree di attività",
+      "practiceAreas": "Specializzazione",
       "method": "Metodo",
-      "lawyer": "Avvocato"
+      "lawyer": "CEO"
     },
     "headerCta": "Richiedi consulenza",
-    "badge": "Palma di Maiorca | Diritto penale e tecnologia",
-    "title": "Luna Legal Lab",
-    "subtitle": "Specialisti in cybercrime e diritto tecnologico",
-    "description": "Studio legale a Palma di Maiorca specializzato in diritto penale, reati informatici e intelligenza artificiale.",
+    "badge": "Assistenza legale in qualsiasi parte del mondo",
+    "title": "Diritto penale e societario",
+    "subtitle": "Difesa penale strategica in contesti tecnologici, aziendali e ad alta complessità.",
+    "description": "Consulenza legale strategica per clienti, aziende e organizzazioni che richiedono una difesa rigorosa, reputazionale e globale.",
+    "advisoryLabel": "Consulenza",
     "primaryCta": "Richiedi consulenza",
-    "secondaryCta": "Scopri le aree di attività",
+    "secondaryCta": "Scopri le aree di specializzazione",
     "focus": {
       "title": "Approccio",
       "items": [
-        "Difesa penale con una reale comprensione dell’ambiente digitale.",
-        "Assistenza strategica, riservata e chiara.",
-        "Consulenza in materia di tecnologia, dati e intelligenza artificiale."
+        "Difesa penale e strategia processuale.",
+        "Comunicazione, informazione e trasparenza.",
+        "Consulenza specialistica globale."
       ]
     }
   },
   "about": {
-    "eyebrow": "Cos'è Luna Legal Lab",
-    "title": "Uno studio pensato per le sfide legali del presente.",
-    "description": "Luna Legal Lab nasce come evoluzione del diritto tradizionale verso un modello adattato alle attuali sfide tecnologiche.",
+    "eyebrow": "Studio",
+    "title": "Diritto e difesa strategica adattati ai nuovi scenari giuridici e sociali.",
+    "description": "Luna Legal Lab nasce dall’evoluzione del diritto tradizionale verso un modello capace di rispondere alle sfide giuridiche e tecnologiche attuali.",
     "paragraphs": [
-      "Lo studio combina la precisione del diritto penale con una prospettiva specializzata sugli ambienti digitali, sulle prove elettroniche e sui nuovi rischi normativi.",
-      "L'approccio è semplice: consulenza legale chiara, strategica e contemporanea per persone, professionisti e organizzazioni che necessitano di risposte concrete a problematiche legali legate alla tecnologia."
+      "L’approccio è chiaro: una consulenza legale sobria, strategica e contemporanea per privati, professionisti e organizzazioni che necessitano risposte concrete ai problemi reali del nostro tempo.",
+      "Oggi la difesa non può limitarsi ai tribunali. I clienti richiedono una risposta strategica in diversi ambiti: media, società, reputazione e contesti digitali."
     ],
     "values": [
       {
         "title": "Rigorosità penale",
-        "text": "Analisi giuridica solida per questioni complesse, con attenzione a procedura, strategia e tutela del cliente."
+        "text": "Senza perdere l’essenza della difesa classica, con attenzione a procedura, strategia e tutela del cliente."
       },
       {
-        "title": "Visione tecnologica",
-        "text": "Comprensione reale del contesto digitale per affrontare prove elettroniche, piattaforme, dati e intelligenza artificiale."
+        "title": "Visione tecnologica e mediatica",
+        "text": "Comprensione reale del contesto digitale per affrontare reputazione, prove elettroniche, piattaforme, dati e intelligenza artificiale."
       },
       {
         "title": "Comunicazione chiara",
-        "text": "Spiegazioni dirette, decisioni consapevoli e accompagnamento costante durante tutto il processo."
+        "text": "Spiegazioni dirette, decisioni informate e accompagnamento costante durante tutto il processo. Siamo un team."
       }
     ]
   },
   "practiceAreas": {
     "eyebrow": "Aree di specializzazione",
-    "title": "Questioni penali e tecnologiche affrontate con profondità.",
-    "description": "Una pratica focalizzata su ambiti in cui diritto e tecnologia si intrecciano direttamente.",
+    "title": "Diritto penale e societario",
+    "description": "Una pratica focalizzata nei settori in cui diritto, impresa e tecnologia si intersecano direttamente.",
     "items": [
       {
-        "title": "Cybercrime",
-        "text": "Assistenza legale in frodi online, accessi abusivi, furto d’identità, molestie digitali e controversie legate a prove elettroniche."
+        "title": "Reati informatici",
+        "text": "Difesa e consulenza in materia di reati informatici e conflitti digitali complessi. Assistenza legale in casi di frodi online, accessi abusivi, furto d’identità, molestie digitali e indagini su prove elettroniche."
       },
       {
-        "title": "Diritto Penale",
-        "text": "Difesa e strategia processuale con un approccio rigoroso, orientato alla tutela dei diritti, della reputazione e della sicurezza giuridica."
+        "title": "Diritto penale",
+        "text": "Difesa penale e strategia processuale in procedimenti complessi, con tutela integrale di diritti, reputazione e sicurezza giuridica."
       },
       {
-        "title": "Diritto Tecnologico",
-        "text": "Consulenza su rischi digitali, compliance, contratti tecnologici e responsabilità in ambienti connessi."
+        "title": "Diritto societario - Compliance",
+        "text": "Consulenza aziendale in materia di compliance, rischi digitali, contratti tecnologici e responsabilità penale delle persone giuridiche."
       },
       {
-        "title": "Intelligenza Artificiale",
-        "text": "Assistenza nell’utilizzo aziendale dell’IA, governance, prevenzione dei rischi e inquadramento giuridico di nuovi sistemi automatizzati."
+        "title": "Intelligenza artificiale",
+        "text": "Consulenza in ambito di intelligenza artificiale, governance, prevenzione dei rischi, responsabilità e inquadramento legale dei sistemi automatizzati in contesti aziendali e pubblici."
       }
     ]
   },
   "method": {
-    "eyebrow": "Metodo di lavoro",
-    "title": "Un approccio equilibrato per casi che richiedono precisione.",
-    "description": "Ogni caso viene affrontato con criterio penale, comprensione digitale e un percorso chiaro fin dall’inizio.",
+    "eyebrow": "Metodo",
+    "title": "Visione strategica per una difesa completa.",
+    "description": "Ogni caso viene analizzato giuridicamente per offrire un quadro chiaro e preciso. Successivamente viene definita una strategia articolata su tre livelli: difesa tecnica, reputazione e comunicazione.",
     "steps": [
       {
-        "title": "Analisi",
-        "text": "Studio del caso, del contesto tecnologico, della documentazione disponibile e dei possibili scenari giuridici."
+        "title": "Analisi giuridica",
+        "text": "Ogni caso viene studiato in profondità per individuare fatti, rischi, scenari giuridici ed esposizione reputazionale."
       },
       {
-        "title": "Strategia",
-        "text": "Definizione della linea di azione, delle priorità processuali e del piano di difesa o consulenza."
+        "title": "Strategia integrata",
+        "text": "Viene definito un piano d’azione su tre livelli coordinati: difesa tecnica, reputazione e comunicazione."
       },
       {
         "title": "Esecuzione",
-        "text": "Attuazione rigorosa con monitoraggio costante, comunicazione chiara e attenzione a ogni fase del procedimento."
+        "text": "Implementazione rigorosa con monitoraggio continuo, decisioni informate e adattamento strategico in ogni fase."
       }
     ]
   },
   "aboutLawyer": {
     "imagePlaceholder": {
-      "eyebrow": "Spazio riservato",
-      "title": "Ritratto professionale",
-      "text": "Questa sezione è predisposta per inserire l'immagine dell’avvocato o dello studio."
+      "eyebrow": "Il nostro CEO",
+      "title": "Dr. Eduardo R. Luna Álvarez",
+      "text": "Punto di riferimento nella difesa penale strategica e nella consulenza aziendale in contesti tecnologici complessi."
     },
-    "eyebrow": "Sull'avvocato",
-    "title": "Difesa penale e tecnologica con un approccio contemporaneo.",
-    "description": "Avvocato specializzato in diritto penale e tecnologico con esperienza in cybercrime e controversie legali digitali.",
+    "eyebrow": "Il nostro CEO",
+    "title": "Dr. Eduardo R. Luna Álvarez",
+    "description": "Specialista in difesa penale strategica, reati informatici e intelligenza artificiale.",
     "paragraphs": [
-      "L’approccio combina un’analisi giuridica solida, la comprensione dell’ambiente digitale e un rapporto diretto con ogni cliente, soprattutto nei casi in cui la complessità tecnica richiede una chiara traduzione in termini legali.",
-      "Questa sezione è pronta per essere ampliata con biografia, fotografia, casi rappresentativi o credenziali professionali."
+      "Dottore in Giurisprudenza, criminologo specializzato in intelligenza artificiale e riferimento nella difesa penale in contesti complessi, tecnologici e aziendali.",
+      "Avvocato specializzato in diritto penale. Criminologo esperto in intelligenza artificiale e reati informatici. Master in Sicurezza e Gestione della Sicurezza. Dottore in Giurisprudenza presso l’Università delle Isole Baleari.",
+      "Professore associato presso l’Università delle Isole Baleari. Formatore per le forze di polizia presso la Scuola delle Amministrazioni Pubbliche delle Baleari. Membro del consiglio consultivo di diverse organizzazioni e corporazioni.",
+      "Periodi di ricerca internazionale presso la Università degli Studi Guglielmo Marconi (Roma). Autore di monografie giuridiche e numerosi articoli scientifici pubblicati su riviste di alto impatto.",
+      "Premio nazionale Ley 2021 come miglior avvocato penalista."
     ],
     "pillars": [
-      "Esperienza in cybercrime e controversie legali digitali.",
-      "Visione integrata di diritto penale, tecnologia e reputazione.",
-      "Predisposto per includere credenziali dettagliate e un profilo completo nella fase successiva."
+      "Redazione di pareri e relazioni per enti ufficiali e forze di polizia.",
+      "Difesa penale globale con specializzazione in casi ad alta complessità.",
+      "Difesa societaria e consulenza a consigli di amministrazione e organizzazioni professionali."
     ]
   },
   "contact": {
     "eyebrow": "Contatto",
-    "title": "Un primo passo chiaro, discreto e professionale.",
-    "description": "Se hai bisogno di assistenza in una questione penale o tecnologica, il sito è pronto per gestire una prima richiesta.",
+    "title": "Benvenuto nel tuo nuovo team legale.",
+    "description": "Gestiamo questioni penali, societarie e tecnologiche con una visione giuridica e strategica completa.",
     "details": [
       {
-        "label": "Sede",
-        "value": "Palma di Maiorca"
+        "label": "Copertura",
+        "value": "Assistenza legale internazionale"
       },
       {
         "label": "Email",
@@ -128,32 +132,32 @@
     "form": {
       "eyebrow": "Richiedi consulenza",
       "title": "Raccontaci il tuo caso",
-      "description": "Modulo frontend pronto per la fase successiva di integrazione.",
+      "description": "Descrivici la tua situazione e valuteremo la strategia più adeguata.",
       "nameLabel": "Nome",
       "namePlaceholder": "Il tuo nome",
       "emailLabel": "Email",
       "emailPlaceholder": "tu@email.com",
       "messageLabel": "Messaggio",
-      "messagePlaceholder": "Descrivi brevemente come possiamo aiutarti.",
+      "messagePlaceholder": "Descrivici brevemente come possiamo aiutarti.",
       "submit": "Invia",
       "helperText": "Interfaccia pronta per essere collegata a email, CRM o backend.",
-      "successMessage": "Messaggio acquisito. Il prossimo passo sarà collegarlo a un sistema reale di invio."
+      "successMessage": "Messaggio ricevuto. Il prossimo passo sarà collegarlo a un sistema reale di invio."
     }
   },
   "footer": {
     "brand": "Luna Legal Lab",
-    "description": "Studio legale a Palma di Maiorca specializzato in diritto penale, cybercrime e diritto tecnologico.",
-    "cityLabel": "Città",
-    "city": "Palma di Maiorca",
+    "description": "Studio specializzato in diritto penale, diritto societario, reati informatici e diritto tecnologico.",
+    "cityLabel": "Sedi:",
+    "city": "Palma · Madrid · Barcellona · Roma",
     "emailLabel": "Email",
     "email": "eduardo@lunalegallab.com",
     "phoneLabel": "Telefono",
     "phone": "+34 601 349 061",
     "copyright": "{year} Luna Legal Lab.",
-    "note": "Base del sito pronta per ulteriori sviluppi."
+    "note": "Calle Reina Esclaramunda nº1, 2º 1ª, Palma, Isole Baleari"
   },
   "seo": {
-    "title": "Luna Legal Lab",
-    "description": "Studio legale a Palma di Maiorca specializzato in cybercrime, diritto penale e diritto tecnologico"
+    "title": "Luna Legal Lab | Diritto penale e societario",
+    "description": "Studio specializzato in diritto penale, diritto societario, reati informatici e intelligenza artificiale con assistenza legale internazionale."
   }
 }

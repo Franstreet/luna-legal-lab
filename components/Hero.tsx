@@ -4,7 +4,7 @@ import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { aloeveraSans } from "@/lib/fonts";
 import type { Dictionary } from "@/lib/i18n";
 import type { Locale } from "@/lib/i18n-config";
-import brandWordmark from "@/public/images/isotipo_beige.webp";
+import brandWordmark from "@/public/images/fondo_beige.webp";
 
 const navigation = [
   { key: "about", href: "#about" },
@@ -19,6 +19,32 @@ type HeroProps = {
 };
 
 export function Hero({ content, locale }: HeroProps) {
+  const isEnglish = locale === "en";
+  const serviceTitleSizeClass = isEnglish
+    ? "text-[clamp(2.9rem,7.5vw,5.8rem)]"
+    : "text-[clamp(3.2rem,8vw,6.2rem)]";
+  const serviceTitleWidthClass = isEnglish
+    ? "max-w-[760px]"
+    : "max-w-[860px]";
+  const serviceTitleParts =
+    isEnglish && content.title.includes(" and ")
+      ? (() => {
+          const [firstPart, ...rest] = content.title.split(" and ");
+          return [`${firstPart} and`, rest.join(" and ")];
+        })()
+      : locale === "es" && content.title.includes(" y ")
+        ? (() => {
+            const [firstPart, secondPart] = content.title.split(" y ");
+            const spanishParts = firstPart.split(" ");
+
+            if (spanishParts.length === 2) {
+              return [spanishParts[0], `${spanishParts[1]} y`, secondPart];
+            }
+
+            return [firstPart, `y ${secondPart}`];
+          })()
+        : [content.title];
+
   return (
     <section
       id="top"
@@ -64,23 +90,26 @@ export function Hero({ content, locale }: HeroProps) {
           </div>
         </header>
 
-        <div className="grid flex-1 gap-16 pb-16 pt-10 lg:grid-cols-[minmax(0,1.15fr)_minmax(320px,0.85fr)] lg:items-end lg:pb-24">
-          <div className="animate-hero max-w-4xl">
+        <div className="grid flex-1 gap-14 pb-16 pt-10 lg:grid-cols-[minmax(0,1.12fr)_minmax(320px,0.88fr)] lg:items-start lg:gap-12 lg:pb-24">
+          <div className="animate-hero max-w-[46rem] lg:-mt-4">
             <p className="inline-flex rounded-full border border-white/12 bg-white/6 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-secondary/90">
               {content.badge}
             </p>
             <h1
-              className={`${aloeveraSans.className} mt-8 text-[clamp(4rem,12vw,7.5rem)] leading-[0.9] tracking-[-0.03em] text-white`}
+              className={`${aloeveraSans.className} ${serviceTitleSizeClass} ${serviceTitleWidthClass} mt-8 text-balance leading-[0.88] tracking-[-0.03em] text-white`}
             >
-              {content.title}
+              {serviceTitleParts.map((part) => (
+                <span
+                  key={part}
+                  className={locale === "es" ? "block whitespace-nowrap" : "block"}
+                >
+                  {part}
+                </span>
+              ))}
             </h1>
             <p className="mt-8 max-w-2xl text-2xl font-medium leading-tight text-white/92 sm:text-3xl">
               {content.subtitle}
             </p>
-            <p className="mt-6 max-w-xl text-lg leading-8 text-white/70 sm:text-xl">
-              {content.description}
-            </p>
-
             <div className="mt-12 flex flex-col gap-4 sm:flex-row">
               <a
                 href="#contact"
@@ -98,22 +127,35 @@ export function Hero({ content, locale }: HeroProps) {
           </div>
 
           <div
-            className="animate-hero rounded-[2rem] border border-white/12 bg-white/6 p-8 backdrop-blur-sm"
+            className="animate-hero flex flex-col gap-8 lg:max-w-[32rem] lg:self-start lg:pt-16"
             style={{ animationDelay: "180ms" }}
           >
-            <p className="text-sm font-semibold uppercase tracking-[0.32em] text-secondary/80">
-              {content.focus.title}
-            </p>
-            <div className="mt-8 space-y-6">
-              {content.focus.items.map((highlight) => (
-                <div
-                  key={highlight}
-                  className="flex gap-4 border-b border-white/10 pb-6 last:border-b-0 last:pb-0"
-                >
-                  <span className="mt-1 h-2.5 w-2.5 rounded-full bg-secondary" />
-                  <p className="text-lg leading-8 text-white/78">{highlight}</p>
-                </div>
-              ))}
+            <div className="rounded-[2rem] border border-white/12 bg-white/6 p-8 backdrop-blur-sm">
+              <p className="text-sm font-semibold uppercase tracking-[0.32em] text-secondary/80">
+                {content.focus.title}
+              </p>
+              <div className="mt-8 space-y-6">
+                {content.focus.items.map((highlight) => (
+                  <div
+                    key={highlight}
+                    className="flex gap-4 border-b border-white/10 pb-6 last:border-b-0 last:pb-0"
+                  >
+                    <span className="mt-1 h-2.5 w-2.5 rounded-full bg-secondary" />
+                    <p className="text-lg leading-8 text-white/78">
+                      {highlight}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="max-w-md pl-1">
+              <p className="mb-3 text-xs font-semibold uppercase tracking-[0.28em] text-white/60">
+                {content.advisoryLabel}
+              </p>
+              <p className="text-lg leading-8 text-white/90 sm:text-xl">
+                {content.description}
+              </p>
             </div>
           </div>
         </div>

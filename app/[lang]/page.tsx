@@ -29,7 +29,7 @@ export default async function Home({ params }: LangPageProps) {
         <About content={dictionary.about} />
         <PracticeAreas content={dictionary.practiceAreas} />
         <Method content={dictionary.method} />
-        <AboutLawyer content={dictionary.aboutLawyer} />
+        <AboutLawyer content={dictionary.aboutLawyer} locale={lang} />
         <Contact content={dictionary.contact} />
       </main>
       <Footer content={dictionary.footer} />
