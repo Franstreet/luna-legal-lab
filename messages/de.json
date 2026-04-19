@@ -54,20 +54,20 @@
     "description": "Eine Spezialisierung auf Bereiche, in denen Recht, Unternehmen und Technologie unmittelbar aufeinandertreffen.",
     "items": [
       {
-        "title": "Strafrecht",
-        "text": "Strafverteidigung und strategische Prozessführung in komplexen Verfahren mit umfassendem Schutz von Rechten, Reputation und Rechtssicherheit."
+        "title": "Cyberkriminalität",
+        "text": "Juristische Unterstützung bei Online-Betrug, unbefugten Zugriffen, Identitätsmissbrauch, digitaler Belästigung und Konflikten im Zusammenhang mit elektronischen Beweismitteln."
       },
       {
-        "title": "Cyberkriminalität",
-        "text": "Verteidigung und Beratung bei Cyberkriminalität und komplexen digitalen Konflikten. Juristische Unterstützung bei Online-Betrug, unbefugten Zugriffen, Identitätsmissbrauch, digitaler Belästigung und Ermittlungen im Zusammenhang mit elektronischen Beweismitteln."
+        "title": "Strafrecht",
+        "text": "Verteidigung und Prozessstrategie mit einem rigorosen Ansatz, ausgerichtet auf den Schutz von Rechten, Reputation und Rechtssicherheit."
       },
       {
         "title": "Corporate Law - Compliance",
-        "text": "Unternehmensbezogene Beratung zu Compliance, digitalen Risiken, Technologieverträgen und strafrechtlicher Verantwortlichkeit juristischer Personen."
+        "text": "Beratung zu digitalen Risiken, Compliance, Technologieverträgen, Verantwortung in vernetzten Umfeldern und strafrechtlicher Verantwortlichkeit juristischer Personen."
       },
       {
         "title": "Künstliche Intelligenz",
-        "text": "Beratung zu Künstlicher Intelligenz, Governance, Risikoprävention, Verantwortung und rechtlicher Einordnung automatisierter Systeme in unternehmerischen und öffentlichen Umfeldern."
+        "text": "Verantwortung beim Einsatz von KI, Governance, Risikoprävention sowie Forschung, Entwicklung und Innovation."
       }
     ]
   },

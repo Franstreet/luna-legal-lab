@@ -54,20 +54,20 @@
     "description": "A focused practice where law, business, and technology intersect directly.",
     "items": [
       {
-        "title": "Criminal Law",
-        "text": "Criminal defense and strategic litigation in complex proceedings, with comprehensive protection of rights, reputation, and legal certainty."
+        "title": "Cybercrime",
+        "text": "Legal assistance in online fraud, unlawful access, impersonation, digital harassment, and disputes involving electronic evidence."
       },
       {
-        "title": "Cybercrime",
-        "text": "Defense and legal counsel in cybercrime and complex digital disputes. Legal assistance in online fraud, unlawful access, impersonation, digital harassment, and investigations involving electronic evidence."
+        "title": "Criminal Law",
+        "text": "Defense and procedural strategy with a rigorous approach, aimed at protecting rights, reputation, and legal certainty."
       },
       {
         "title": "Corporate Law - Compliance",
-        "text": "Corporate counsel on compliance, digital risks, technology contracts, and corporate criminal liability."
+        "text": "Counsel on digital risks, compliance, technology contracts, liability in connected environments, and corporate criminal liability."
       },
       {
         "title": "Artificial Intelligence",
-        "text": "Counsel on Artificial Intelligence, governance, risk prevention, liability, and the legal integration of automated systems in corporate and public environments."
+        "text": "Liability arising from the use of AI, governance, risk prevention, and R&D&I."
       }
     ]
   },

@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { MobileNavMenu } from "@/components/MobileNavMenu";
 import { aloeveraSans } from "@/lib/fonts";
 import type { Dictionary } from "@/lib/i18n";
 import type { Locale } from "@/lib/i18n-config";
@@ -21,6 +22,15 @@ type HeroProps = {
 
 export function Hero({ content, locale }: HeroProps) {
   const isEnglish = locale === "en";
+  const navigationItems = navigation.flatMap((item) => {
+    const label = (content.navigation as Record<string, string | undefined>)[item.key];
+
+    if (!label) {
+      return [];
+    }
+
+    return [{ ...item, label }];
+  });
   const serviceTitleSizeClass = isEnglish
     ? "text-[clamp(2.9rem,7.5vw,5.8rem)]"
     : "text-[clamp(3.2rem,8vw,6.2rem)]";
@@ -55,7 +65,7 @@ export function Hero({ content, locale }: HeroProps) {
       <div className="absolute inset-x-0 bottom-0 h-px bg-white/10" />
 
       <div className="relative mx-auto flex w-full max-w-6xl flex-col px-6 sm:px-8 lg:px-12 xl:min-h-[100svh]">
-        <header className="grid grid-cols-[auto_1fr] items-center gap-3 py-6 md:flex md:flex-wrap md:items-center md:justify-between md:gap-6">
+        <header className="relative grid grid-cols-[auto_1fr_auto] items-center gap-3 py-6 md:flex md:flex-wrap md:items-center md:justify-between md:gap-6">
           <a
             href="#top"
             className="shrink-0"
@@ -68,27 +78,23 @@ export function Hero({ content, locale }: HeroProps) {
             />
           </a>
 
+          <div className="justify-self-center md:hidden">
+            <LanguageSwitcher locale={locale} />
+          </div>
+
           <nav className="hidden items-center gap-8 text-sm text-white/65 md:flex">
-            {navigation.map((item) => {
-              const label = (content.navigation as Record<string, string | undefined>)[item.key];
-
-              if (!label) {
-                return null;
-              }
-
-              return (
-                <a
-                  key={item.href}
-                  href={item.href}
-                  className="hover:text-secondary"
-                >
-                  {label}
-                </a>
-              );
-            })}
+            {navigationItems.map((item) => (
+              <a
+                key={item.href}
+                href={item.href}
+                className="hover:text-secondary"
+              >
+                {item.label}
+              </a>
+            ))}
           </nav>
 
-          <div className="flex min-w-0 items-center justify-end gap-2 md:ml-auto md:gap-3">
+          <div className="hidden min-w-0 items-center justify-end gap-2 md:ml-auto md:flex md:gap-3">
             <LanguageSwitcher locale={locale} />
             <a
               href="#contact"
@@ -96,6 +102,10 @@ export function Hero({ content, locale }: HeroProps) {
             >
               {content.headerCta}
             </a>
+          </div>
+
+          <div className="flex items-center justify-end md:hidden">
+            <MobileNavMenu items={navigationItems} />
           </div>
         </header>
 

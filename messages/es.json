@@ -54,20 +54,20 @@
     "description": "Una práctica concentrada en materias donde el derecho, la empresa y la tecnología se cruzan de forma directa.",
     "items": [
       {
-        "title": "Derecho Penal",
-        "text": "Defensa penal y litigación estratégica en procedimientos complejos, con protección integral de derechos, reputación y seguridad jurídica."
+        "title": "Ciberdelitos",
+        "text": "Asistencia jurídica en fraudes online, accesos ilícitos, suplantaciones, acoso digital y conflictos vinculados con evidencias electrónicas."
       },
       {
-        "title": "Ciberdelitos",
-        "text": "Defensa y asesoramiento en ciberdelitos y conflictos digitales complejos. Asistencia jurídica en fraudes online, accesos ilícitos, suplantaciones, acoso digital e investigaciones vinculadas a prueba electrónica."
+        "title": "Derecho Penal",
+        "text": "Defensa y estrategia procesal con una aproximación rigurosa, orientada a proteger derechos, reputación y seguridad jurídica."
       },
       {
         "title": "Derecho Corporativo - Compliance",
-        "text": "Asesoramiento corporativo en cumplimiento, riesgos digitales, contratos tecnológicos y responsabilidad penal de la persona jurídica."
+        "text": "Asesoramiento en riesgos digitales, cumplimiento, contratos tecnológicos, responsabilidad en entornos conectados y responsabilidad penal de la persona jurídica."
       },
       {
         "title": "Inteligencia Artificial",
-        "text": "Asesoramiento en inteligencia artificial, gobernanza, prevención de riesgos, responsabilidad y encaje legal de sistemas automatizados en entornos corporativos y públicos."
+        "text": "Responsabilidad por uso de IA, gobernanza, prevención de riesgos, I+D+I."
       }
     ]
   },
@@ -142,10 +142,11 @@
       "title": "Intervenciones destacadas",
       "description": "A lo largo de su trayectoria, el Dr. Luna ha participado en:",
       "items": [
-        "Formación de cuerpos policiales y administraciones públicas",
-        "Programas de divulgación jurídica en televisión",
-        "Actividades docentes universitarias",
-        "Jornadas técnicas sobre Derecho y tecnología"
+        "Congresos y conferencias nacionales e internacionales sobre derecho, nuevas tecnologías, derecho aeronáutico, litigación penal y cibercrimen.",
+        "Formación jurídica a cuerpos policiales y administraciones públicas.",
+        "Programas de divulgación jurídica en televisión y radio.",
+        "Actividades docentes universitarias nacionales e internacionales en España, Italia y Latinoamérica.",
+        "Jornadas técnicas sobre Derecho y tecnología, uso de la inteligencia artificial, cibercrimen y neurociencia."
       ]
     },
     "publicArchive": {

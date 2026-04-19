@@ -54,20 +54,20 @@
     "description": "Una pratica focalizzata nei settori in cui diritto, impresa e tecnologia si intersecano direttamente.",
     "items": [
       {
-        "title": "Diritto penale",
-        "text": "Difesa penale e strategia processuale in procedimenti complessi, con tutela integrale di diritti, reputazione e sicurezza giuridica."
+        "title": "Reati informatici",
+        "text": "Assistenza legale in casi di frodi online, accessi abusivi, furto d'identità, molestie digitali e conflitti legati a evidenze elettroniche."
       },
       {
-        "title": "Reati informatici",
-        "text": "Difesa e consulenza in materia di reati informatici e conflitti digitali complessi. Assistenza legale in casi di frodi online, accessi abusivi, furto d’identità, molestie digitali e indagini su prove elettroniche."
+        "title": "Diritto penale",
+        "text": "Difesa e strategia processuale con un approccio rigoroso, orientato alla tutela dei diritti, della reputazione e della certezza giuridica."
       },
       {
         "title": "Diritto societario - Compliance",
-        "text": "Consulenza aziendale in materia di compliance, rischi digitali, contratti tecnologici e responsabilità penale delle persone giuridiche."
+        "text": "Consulenza su rischi digitali, compliance, contratti tecnologici, responsabilità in contesti connessi e responsabilità penale delle persone giuridiche."
       },
       {
         "title": "Intelligenza artificiale",
-        "text": "Consulenza in ambito di intelligenza artificiale, governance, prevenzione dei rischi, responsabilità e inquadramento legale dei sistemi automatizzati in contesti aziendali e pubblici."
+        "text": "Responsabilità per l'uso dell'IA, governance, prevenzione dei rischi, ricerca, sviluppo e innovazione."
       }
     ]
   },
