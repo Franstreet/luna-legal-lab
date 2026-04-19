@@ -53,12 +53,12 @@
     "description": "Una práctica concentrada en materias donde el derecho, la empresa y la tecnología se cruzan de forma directa.",
     "items": [
       {
-        "title": "Ciberdelitos",
-        "text": "Defensa y asesoramiento en ciberdelitos y conflictos digitales complejos. Asistencia jurídica en fraudes online, accesos ilícitos, suplantaciones, acoso digital e investigaciones vinculadas a prueba electrónica."
-      },
-      {
         "title": "Derecho Penal",
         "text": "Defensa penal y litigación estratégica en procedimientos complejos, con protección integral de derechos, reputación y seguridad jurídica."
+      },
+      {
+        "title": "Ciberdelitos",
+        "text": "Defensa y asesoramiento en ciberdelitos y conflictos digitales complejos. Asistencia jurídica en fraudes online, accesos ilícitos, suplantaciones, acoso digital e investigaciones vinculadas a prueba electrónica."
       },
       {
         "title": "Derecho Corporativo - Compliance",
@@ -93,18 +93,20 @@
     "imagePlaceholder": {
       "eyebrow": "Nuestro CEO",
       "title": "Dr. Eduardo R. Luna Álvarez",
-      "text": "Referente en defensa penal estratégica y asesoramiento corporativo en entornos tecnológicos complejos."
+      "text": "Especialista en defensa penal estratégica, con experiencia en ciberdelincuencia, inteligencia artificial y entornos de alta complejidad."
     },
     "eyebrow": "Nuestro CEO",
     "title": "Dr. Eduardo R. Luna Álvarez",
-    "description": "Especialista en defensa penal estratégica, ciberdelincuencia e inteligencia artificial.",
+    "description": "Especialista en defensa penal estratégica.",
     "paragraphs": [
-      "Doctor en Derecho, criminólogo especializado en inteligencia artificial y referente en defensa penal en entornos complejos, tecnológicos y corporativos.",
-      "Abogado especializado en derecho penal. Criminólogo especialista en inteligencia artificial y ciberdelito. Máster en Seguridad y Gestión de la Seguridad. Doctor en Derecho por la Universidad de las Islas Baleares.",
-      "Profesor asociado de la Universidad de las Islas Baleares. Formador policial en la Escuela Balear de Administraciones Públicas. Miembro del consejo asesor de diferentes organizaciones y corporaciones.",
-      "Estancias de investigación internacional en la Università degli Studi Guglielmo Marconi (Roma). Autor de monografías jurídicas y decenas de artículos científicos en revistas de alto impacto.",
-      "Premio nacional de Ley 2021 a mejor abogado de derecho penal."
+      "Doctor en Derecho y criminólogo especializado en inteligencia artificial, ciberdelincuencia y neurociencia. El Dr. Luna es un referente en la defensa penal en contextos complejos y de alto impacto mediático.",
+      "Desarrolla su actividad profesional como abogado penalista, con una práctica centrada en el derecho penal, la ciberdelincuencia y los nuevos desafíos derivados del uso de sistemas de inteligencia artificial. Su formación académica incluye un Máster en Seguridad y Gestión de la Seguridad, así como un Doctorado en Derecho por la Universidad de las Islas Baleares y un segundo Doctorado cursando en Neurociencia y psicología.",
+      "Compagina su ejercicio profesional con la actividad académica como profesor asociado en la Universidad de las Islas Baleares, así como con la formación especializada a miembros de las Fuerzas y Cuerpos de Seguridad a través de la Escuela Balear de Administraciones Públicas. Asimismo, forma parte de órganos consultivos y consejos asesores de distintas organizaciones e instituciones.",
+      "Eduardo es colaborador habitual de diferentes medios de comunicación donde ejerce una labor divulgativa sobre aspectos relacionados con el derecho penal.",
+      "Ha realizado estancias de investigación internacional en la Università degli Studi Guglielmo Marconi (Roma) y es autor de diversas monografías jurídicas y de numerosos artículos científicos publicados en revistas de alto impacto, principalmente en el ámbito del derecho procesal penal, prueba tecnológica e inteligencia artificial.",
+      "En reconocimiento a su trayectoria profesional, ha sido distinguido con el Premio Nacional de Ley 2021 al mejor abogado en derecho penal."
     ],
+    "fullProfileCta": "Ver perfil completo",
     "pillars": [
       "Dictámenes e informes para estamentos oficiales y cuerpos policiales.",
       "Defensa penal global, con especialización en asuntos de alta complejidad.",

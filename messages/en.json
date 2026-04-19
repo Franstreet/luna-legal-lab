@@ -53,12 +53,12 @@
     "description": "A focused practice where law, business, and technology intersect directly.",
     "items": [
       {
-        "title": "Cybercrime",
-        "text": "Defense and legal counsel in cybercrime and complex digital disputes. Legal assistance in online fraud, unlawful access, impersonation, digital harassment, and investigations involving electronic evidence."
-      },
-      {
         "title": "Criminal Law",
         "text": "Criminal defense and strategic litigation in complex proceedings, with comprehensive protection of rights, reputation, and legal certainty."
+      },
+      {
+        "title": "Cybercrime",
+        "text": "Defense and legal counsel in cybercrime and complex digital disputes. Legal assistance in online fraud, unlawful access, impersonation, digital harassment, and investigations involving electronic evidence."
       },
       {
         "title": "Corporate Law - Compliance",
@@ -93,18 +93,20 @@
     "imagePlaceholder": {
       "eyebrow": "Our CEO",
       "title": "Dr. Eduardo R. Luna Álvarez",
-      "text": "A recognized figure in strategic criminal defense and corporate counsel within complex technological environments."
+      "text": "Specialist in strategic criminal defense, with experience in cybercrime, artificial intelligence, and high-complexity matters."
     },
     "eyebrow": "Our CEO",
     "title": "Dr. Eduardo R. Luna Álvarez",
-    "description": "Specialist in strategic criminal defense, cybercrime, and artificial intelligence.",
+    "description": "Specialist in strategic criminal defense.",
     "paragraphs": [
-      "Doctor of Law, criminologist specialized in artificial intelligence, and a leading figure in criminal defense for complex technological and corporate environments.",
-      "Lawyer specialized in Criminal Law. Criminologist specialized in Artificial Intelligence and Cybercrime. Master's Degree in Security and Security Management. Doctor of Law from the University of the Balearic Islands.",
-      "Associate Professor at the University of the Balearic Islands. Police trainer at the Balearic School of Public Administration. Member of the advisory board of various organizations and corporations.",
-      "International research appointments at Università degli Studi Guglielmo Marconi (Rome). Author of legal monographs and dozens of scientific articles published in high-impact journals.",
-      "National Ley 2021 Award for Best Criminal Law Lawyer."
+      "Doctor of Law and criminologist specialized in artificial intelligence, cybercrime, and neuroscience. Dr. Luna is a leading figure in criminal defense in complex cases with a high media profile.",
+      "He practices as a criminal defense lawyer, with a focus on criminal law, cybercrime, and the new challenges arising from the use of artificial intelligence systems. His academic background includes a Master's Degree in Security and Security Management, a Doctorate in Law from the University of the Balearic Islands, and a second doctorate currently underway in Neuroscience and Psychology.",
+      "He combines his legal practice with academic work as an Associate Professor at the University of the Balearic Islands, as well as specialized training for members of the State Security Forces and Corps through the Balearic School of Public Administration. He also serves on consultative bodies and advisory boards for various organizations and institutions.",
+      "Eduardo is a regular contributor to various media outlets, where he carries out public-facing legal outreach on matters related to criminal law.",
+      "He has completed international research stays at the Università degli Studi Guglielmo Marconi (Rome) and is the author of several legal monographs and numerous scientific articles published in high-impact journals, primarily in the fields of criminal procedural law, technological evidence, and artificial intelligence.",
+      "In recognition of his professional career, he was awarded the 2021 National Ley Award for Best Criminal Law Lawyer."
     ],
+    "fullProfileCta": "View full profile",
     "pillars": [
       "Opinions and expert reports for public institutions and police forces.",
       "Global criminal defense with a specialization in high-complexity matters.",

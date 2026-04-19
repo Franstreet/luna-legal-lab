@@ -53,12 +53,12 @@
     "description": "Eine Spezialisierung auf Bereiche, in denen Recht, Unternehmen und Technologie unmittelbar aufeinandertreffen.",
     "items": [
       {
-        "title": "Cyberkriminalität",
-        "text": "Verteidigung und Beratung bei Cyberkriminalität und komplexen digitalen Konflikten. Juristische Unterstützung bei Online-Betrug, unbefugten Zugriffen, Identitätsmissbrauch, digitaler Belästigung und Ermittlungen im Zusammenhang mit elektronischen Beweismitteln."
-      },
-      {
         "title": "Strafrecht",
         "text": "Strafverteidigung und strategische Prozessführung in komplexen Verfahren mit umfassendem Schutz von Rechten, Reputation und Rechtssicherheit."
+      },
+      {
+        "title": "Cyberkriminalität",
+        "text": "Verteidigung und Beratung bei Cyberkriminalität und komplexen digitalen Konflikten. Juristische Unterstützung bei Online-Betrug, unbefugten Zugriffen, Identitätsmissbrauch, digitaler Belästigung und Ermittlungen im Zusammenhang mit elektronischen Beweismitteln."
       },
       {
         "title": "Corporate Law - Compliance",
@@ -93,18 +93,20 @@
     "imagePlaceholder": {
       "eyebrow": "Unser CEO",
       "title": "Dr. Eduardo R. Luna Álvarez",
-      "text": "Maßgebliche Persönlichkeit für strategische Strafverteidigung und Corporate-Beratung in komplexen technologischen Umfeldern."
+      "text": "Spezialist für strategische Strafverteidigung mit Erfahrung in Cyberkriminalität, Künstlicher Intelligenz und hochkomplexen Verfahren."
     },
     "eyebrow": "Unser CEO",
     "title": "Dr. Eduardo R. Luna Álvarez",
-    "description": "Spezialist für strategische Strafverteidigung, Cyberkriminalität und Künstliche Intelligenz.",
+    "description": "Spezialist für strategische Strafverteidigung.",
     "paragraphs": [
-      "Doktor der Rechtswissenschaften, Kriminologe mit Spezialisierung auf Künstliche Intelligenz und eine Referenz im Bereich der Strafverteidigung in komplexen, technologischen und unternehmerischen Umfeldern.",
-      "Rechtsanwalt mit Schwerpunkt Strafrecht. Kriminologe mit Spezialisierung auf Künstliche Intelligenz und Cyberkriminalität. Master in Sicherheit und Sicherheitsmanagement. Doktor der Rechtswissenschaften an der Universität der Balearen.",
-      "Assoziierter Professor an der Universität der Balearen. Polizeiausbilder an der Escola Balear d’Administracions Públiques. Mitglied des Beirats verschiedener Organisationen und Körperschaften.",
-      "Internationale Forschungsaufenthalte an der Università degli Studi Guglielmo Marconi (Rom). Autor juristischer Monografien und zahlreicher wissenschaftlicher Artikel in hochrangigen Fachzeitschriften.",
-      "Nationaler Ley-Preis 2021 als bester Strafverteidiger."
+      "Doktor der Rechtswissenschaften und Kriminologe mit Spezialisierung auf Künstliche Intelligenz, Cyberkriminalität und Neurowissenschaften. Dr. Luna gilt als Referenz in der Strafverteidigung in komplexen Fällen mit hoher medialer Aufmerksamkeit.",
+      "Er ist als Strafverteidiger tätig, mit einer Praxis, die auf Strafrecht, Cyberkriminalität und die neuen Herausforderungen durch den Einsatz von Systemen der Künstlichen Intelligenz ausgerichtet ist. Seine akademische Ausbildung umfasst einen Master in Sicherheit und Sicherheitsmanagement, eine Promotion in Rechtswissenschaften an der Universität der Balearen sowie eine zweite laufende Promotion in Neurowissenschaften und Psychologie.",
+      "Er verbindet seine anwaltliche Tätigkeit mit akademischer Arbeit als assoziierter Professor an der Universität der Balearen sowie mit spezialisierter Ausbildung für Angehörige der Sicherheitskräfte über die Balearische Schule für Öffentliche Verwaltung. Darüber hinaus gehört er beratenden Gremien und Beiräten verschiedener Organisationen und Institutionen an.",
+      "Eduardo ist regelmäßiger Mitarbeiter verschiedener Medien, in denen er juristische Aufklärungsarbeit zu Themen des Strafrechts leistet.",
+      "Er absolvierte internationale Forschungsaufenthalte an der Università degli Studi Guglielmo Marconi in Rom und ist Autor mehrerer juristischer Monografien sowie zahlreicher wissenschaftlicher Beiträge in hochrangigen Fachzeitschriften, insbesondere in den Bereichen Strafprozessrecht, technologische Beweisführung und Künstliche Intelligenz.",
+      "In Anerkennung seiner beruflichen Laufbahn wurde er mit dem Nationalen Ley-Preis 2021 als bester Anwalt im Strafrecht ausgezeichnet."
     ],
+    "fullProfileCta": "Vollständiges Profil ansehen",
     "pillars": [
       "Gutachten und Berichte für staatliche Stellen und Polizeibehörden.",
       "Globale Strafverteidigung mit Spezialisierung auf hochkomplexe Fälle.",

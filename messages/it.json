@@ -53,12 +53,12 @@
     "description": "Una pratica focalizzata nei settori in cui diritto, impresa e tecnologia si intersecano direttamente.",
     "items": [
       {
-        "title": "Reati informatici",
-        "text": "Difesa e consulenza in materia di reati informatici e conflitti digitali complessi. Assistenza legale in casi di frodi online, accessi abusivi, furto d’identità, molestie digitali e indagini su prove elettroniche."
-      },
-      {
         "title": "Diritto penale",
         "text": "Difesa penale e strategia processuale in procedimenti complessi, con tutela integrale di diritti, reputazione e sicurezza giuridica."
+      },
+      {
+        "title": "Reati informatici",
+        "text": "Difesa e consulenza in materia di reati informatici e conflitti digitali complessi. Assistenza legale in casi di frodi online, accessi abusivi, furto d’identità, molestie digitali e indagini su prove elettroniche."
       },
       {
         "title": "Diritto societario - Compliance",
@@ -93,18 +93,20 @@
     "imagePlaceholder": {
       "eyebrow": "Il nostro CEO",
       "title": "Dr. Eduardo R. Luna Álvarez",
-      "text": "Punto di riferimento nella difesa penale strategica e nella consulenza aziendale in contesti tecnologici complessi."
+      "text": "Specialista in difesa penale strategica, con esperienza in reati informatici, intelligenza artificiale e questioni ad alta complessità."
     },
     "eyebrow": "Il nostro CEO",
     "title": "Dr. Eduardo R. Luna Álvarez",
-    "description": "Specialista in difesa penale strategica, reati informatici e intelligenza artificiale.",
+    "description": "Specialista in difesa penale strategica.",
     "paragraphs": [
-      "Dottore in Giurisprudenza, criminologo specializzato in intelligenza artificiale e riferimento nella difesa penale in contesti complessi, tecnologici e aziendali.",
-      "Avvocato specializzato in diritto penale. Criminologo esperto in intelligenza artificiale e reati informatici. Master in Sicurezza e Gestione della Sicurezza. Dottore in Giurisprudenza presso l’Università delle Isole Baleari.",
-      "Professore associato presso l’Università delle Isole Baleari. Formatore per le forze di polizia presso la Scuola delle Amministrazioni Pubbliche delle Baleari. Membro del consiglio consultivo di diverse organizzazioni e corporazioni.",
-      "Periodi di ricerca internazionale presso la Università degli Studi Guglielmo Marconi (Roma). Autore di monografie giuridiche e numerosi articoli scientifici pubblicati su riviste di alto impatto.",
-      "Premio nazionale Ley 2021 come miglior avvocato penalista."
+      "Dottore in Giurisprudenza e criminologo specializzato in intelligenza artificiale, criminalità informatica e neuroscienze. Il Dr. Luna è un punto di riferimento nella difesa penale in contesti complessi e ad alto impatto mediatico.",
+      "Svolge la propria attività professionale come avvocato penalista, con una pratica incentrata sul diritto penale, sulla criminalità informatica e sulle nuove sfide derivanti dall'uso di sistemi di intelligenza artificiale. La sua formazione accademica comprende un Master in Sicurezza e Gestione della Sicurezza, un Dottorato in Giurisprudenza presso l'Università delle Isole Baleari e un secondo dottorato attualmente in corso in Neuroscienze e Psicologia.",
+      "Affianca all'esercizio della professione l'attività accademica come professore associato presso l'Università delle Isole Baleari, nonché la formazione specialistica rivolta ai membri delle Forze e dei Corpi di Sicurezza attraverso la Scuola Balearica di Amministrazioni Pubbliche. Fa inoltre parte di organi consultivi e consigli di amministrazione di diverse organizzazioni e istituzioni.",
+      "Eduardo collabora abitualmente con diversi mezzi di comunicazione, nei quali svolge un'attività divulgativa su temi legati al diritto penale.",
+      "Ha svolto soggiorni di ricerca internazionale presso la Università degli Studi Guglielmo Marconi (Roma) ed è autore di diverse monografie giuridiche e di numerosi articoli scientifici pubblicati su riviste ad alto impatto, soprattutto nell'ambito del diritto processuale penale, della prova tecnologica e dell'intelligenza artificiale.",
+      "In riconoscimento della sua traiettoria professionale, gli è stato conferito il Premio Nazionale Ley 2021 come miglior avvocato penalista."
     ],
+    "fullProfileCta": "Vedi profilo completo",
     "pillars": [
       "Redazione di pareri e relazioni per enti ufficiali e forze di polizia.",
       "Difesa penale globale con specializzazione in casi ad alta complessità.",
