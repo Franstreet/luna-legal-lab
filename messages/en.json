@@ -5,7 +5,8 @@
       "about": "Firm",
       "practiceAreas": "Practice Areas",
       "method": "Method",
-      "lawyer": "CEO"
+      "lawyer": "CEO",
+      "conferences": "Conferences"
     },
     "headerCta": "Request Consultation",
     "badge": "Legal assistance anywhere in the world",
@@ -112,6 +113,56 @@
       "Global criminal defense with a specialization in high-complexity matters.",
       "Corporate defense and counsel to boards of directors and professional organizations."
     ]
+  },
+  "conferences": {
+    "eyebrow": "Conferences and Training",
+    "title": "Law, technology, and strategy applied to real-world environments.",
+    "description": "Contemporary legal practice requires more than technical knowledge: it demands a strategic understanding of the technological landscape, the ability to anticipate risk, and an applied vision of law in complex settings.",
+    "paragraphs": [
+      "From this premise, Dr. Eduardo R. Luna Álvarez maintains an ongoing role as a speaker and trainer in national and international forums, addressing key matters such as corporate criminal law, artificial intelligence, digital evidence, and the transformation of the criminal justice system in the technological era.",
+      "His interventions combine legal rigor, practical perspective, and a strong communicative capacity, spanning television programs, police training, and university environments, bringing legal knowledge into real-world decision-making contexts."
+    ],
+    "featured": {
+      "eyebrow": "Specialized Training",
+      "text": "Specialized training for institutions, companies, and professionals operating in highly complex legal and technological environments."
+    },
+    "topics": {
+      "eyebrow": "Conference Areas",
+      "title": "Core speaking topics",
+      "items": [
+        "Artificial intelligence and Criminal Law",
+        "Digital evidence and technological proof in criminal proceedings",
+        "Criminal compliance and corporate liability",
+        "Cybercrime and emerging legal risks",
+        "Defense strategy in complex environments",
+        "The impact of technology on the judicial system"
+      ]
+    },
+    "highlights": {
+      "title": "Featured engagements",
+      "description": "Throughout his career, Dr. Luna has participated in:",
+      "items": [
+        "Training programs for police forces and public administrations",
+        "Legal outreach programs on television",
+        "University teaching activities",
+        "Technical forums on Law and technology"
+      ]
+    },
+    "publicArchive": {
+      "eyebrow": "Public Archive",
+      "title": "A space prepared for future talks, interviews, and materials.",
+      "description": "A section designed to incorporate videos, public appearances, and reference links connected to his speaking and training work.",
+      "items": [
+        "Videos and conferences",
+        "Interviews and appearances",
+        "Public links"
+      ]
+    },
+    "cta": {
+      "title": "Booking Conferences",
+      "description": "If you would like to book a conference or design tailored training for your organization, you may contact us directly through the following form.",
+      "button": "Request conference"
+    }
   },
   "contact": {
     "eyebrow": "Contact",

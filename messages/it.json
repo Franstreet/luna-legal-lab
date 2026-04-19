@@ -5,7 +5,8 @@
       "about": "Studio",
       "practiceAreas": "Specializzazione",
       "method": "Metodo",
-      "lawyer": "CEO"
+      "lawyer": "CEO",
+      "conferences": "Conferenze"
     },
     "headerCta": "Richiedi consulenza",
     "badge": "Assistenza legale in qualsiasi parte del mondo",
@@ -112,6 +113,56 @@
       "Difesa penale globale con specializzazione in casi ad alta complessità.",
       "Difesa societaria e consulenza a consigli di amministrazione e organizzazioni professionali."
     ]
+  },
+  "conferences": {
+    "eyebrow": "Conferenze e formazione",
+    "title": "Diritto, tecnologia e strategia applicata a contesti reali.",
+    "description": "La pratica giuridica contemporanea richiede qualcosa di più della sola conoscenza tecnica: richiede comprensione strategica del contesto tecnologico, capacità di anticipazione e una visione applicata del diritto in scenari complessi.",
+    "paragraphs": [
+      "A partire da questa premessa, il Dr. Eduardo R. Luna Álvarez svolge un'attività continuativa come relatore e formatore in contesti nazionali e internazionali, affrontando temi chiave come il diritto penale societario, l'intelligenza artificiale, la prova digitale e la trasformazione del sistema penale nell'era tecnologica.",
+      "I suoi interventi combinano rigore giuridico, approccio pratico e capacità divulgativa, con partecipazioni in programmi televisivi, formazioni per le forze di polizia e contesti universitari, portando il sapere giuridico in scenari reali di assunzione delle decisioni."
+    ],
+    "featured": {
+      "eyebrow": "Formazione specialistica",
+      "text": "Formazione specialistica per istituzioni, aziende e professionisti che operano in contesti giuridici e tecnologici ad alta complessità."
+    },
+    "topics": {
+      "eyebrow": "Aree di conferenza",
+      "title": "Temi principali di intervento",
+      "items": [
+        "Intelligenza artificiale e diritto penale",
+        "Prova digitale ed evidenza tecnologica nel processo penale",
+        "Compliance penale e responsabilità d'impresa",
+        "Criminalità informatica e nuovi rischi giuridici",
+        "Strategia difensiva in contesti complessi",
+        "Impatto della tecnologia sul sistema giudiziario"
+      ]
+    },
+    "highlights": {
+      "title": "Interventi di rilievo",
+      "description": "Nel corso della sua traiettoria, il Dr. Luna ha partecipato a:",
+      "items": [
+        "Formazione di corpi di polizia e pubbliche amministrazioni",
+        "Programmi televisivi di divulgazione giuridica",
+        "Attività di docenza universitaria",
+        "Giornate tecniche su diritto e tecnologia"
+      ]
+    },
+    "publicArchive": {
+      "eyebrow": "Archivio pubblico",
+      "title": "Spazio predisposto per futuri interventi, interviste e materiali.",
+      "description": "Area pensata per integrare in futuro video, apparizioni pubbliche e link di riferimento collegati alla sua attività divulgativa e formativa.",
+      "items": [
+        "Video e conferenze",
+        "Interviste e apparizioni",
+        "Link pubblici"
+      ]
+    },
+    "cta": {
+      "title": "Prenotazione conferenze",
+      "description": "Se desidera incaricare una conferenza o progettare una formazione su misura per la sua organizzazione, può contattare direttamente attraverso il seguente modulo.",
+      "button": "Richiedi conferenza"
+    }
   },
   "contact": {
     "eyebrow": "Contatto",

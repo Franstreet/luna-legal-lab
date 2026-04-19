@@ -5,7 +5,8 @@
       "about": "Kanzlei",
       "practiceAreas": "Spezialisierung",
       "method": "Methode",
-      "lawyer": "CEO"
+      "lawyer": "CEO",
+      "conferences": "Konferenzen"
     },
     "headerCta": "Beratung anfragen",
     "badge": "Juristische Unterstützung überall auf der Welt",
@@ -112,6 +113,56 @@
       "Globale Strafverteidigung mit Spezialisierung auf hochkomplexe Fälle.",
       "Corporate-Verteidigung und Beratung von Verwaltungsräten und Berufsorganisationen."
     ]
+  },
+  "conferences": {
+    "eyebrow": "Konferenzen und Fachschulungen",
+    "title": "Recht, Technologie und Strategie für reale Einsatzfelder.",
+    "description": "Zeitgemäße juristische Praxis verlangt mehr als technisches Wissen: Sie erfordert ein strategisches Verständnis des technologischen Umfelds, die Fähigkeit zur Antizipation und einen anwendungsbezogenen Blick auf das Recht in komplexen Kontexten.",
+    "paragraphs": [
+      "Ausgehend von diesem Ansatz ist Dr. Eduardo R. Luna Álvarez kontinuierlich als Referent und Ausbilder in nationalen und internationalen Foren tätig und behandelt zentrale Themen wie Unternehmensstrafrecht, Künstliche Intelligenz, digitale Beweise und den Wandel des Strafrechtssystems im technologischen Zeitalter.",
+      "Seine Beiträge verbinden juristische Präzision, praxisnahe Perspektive und kommunikative Stärke. Er wirkt in Fernsehformaten, polizeilichen Fortbildungen und universitären Kontexten mit und überträgt juristisches Wissen in reale Entscheidungssituationen."
+    ],
+    "featured": {
+      "eyebrow": "Spezialisierte Fortbildung",
+      "text": "Spezialisierte Fortbildung für Institutionen, Unternehmen und Fachleute, die in juristisch und technologisch hochkomplexen Umfeldern tätig sind."
+    },
+    "topics": {
+      "eyebrow": "Konferenzthemen",
+      "title": "Zentrale Themenfelder",
+      "items": [
+        "Künstliche Intelligenz und Strafrecht",
+        "Digitale Beweise und technologische Evidenz im Strafverfahren",
+        "Strafrechtliche Compliance und Unternehmensverantwortung",
+        "Cyberkriminalität und neue rechtliche Risiken",
+        "Verteidigungsstrategie in komplexen Umfeldern",
+        "Auswirkungen der Technologie auf das Justizsystem"
+      ]
+    },
+    "highlights": {
+      "title": "Ausgewählte Beiträge",
+      "description": "Im Verlauf seiner Laufbahn war Dr. Luna unter anderem beteiligt an:",
+      "items": [
+        "Fortbildungen für Polizeikräfte und öffentliche Verwaltungen",
+        "Juristischen Fernsehformaten mit aufklärendem Charakter",
+        "Universitären Lehrveranstaltungen",
+        "Fachtagungen zu Recht und Technologie"
+      ]
+    },
+    "publicArchive": {
+      "eyebrow": "Öffentliches Archiv",
+      "title": "Bereich vorbereitet für künftige Vorträge, Interviews und Materialien.",
+      "description": "Ein Bereich, der künftig Videos, öffentliche Auftritte und Referenzlinks im Zusammenhang mit seiner Vortrags- und Lehrtätigkeit aufnehmen kann.",
+      "items": [
+        "Videos und Vorträge",
+        "Interviews und Auftritte",
+        "Öffentliche Links"
+      ]
+    },
+    "cta": {
+      "title": "Buchung von Konferenzen",
+      "description": "Wenn Sie einen Vortrag buchen oder eine maßgeschneiderte Schulung für Ihre Organisation konzipieren möchten, können Sie direkt über das folgende Formular Kontakt aufnehmen.",
+      "button": "Konferenz anfragen"
+    }
   },
   "contact": {
     "eyebrow": "Kontakt",

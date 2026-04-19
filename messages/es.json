@@ -5,7 +5,8 @@
       "about": "Estudio",
       "practiceAreas": "Especialización",
       "method": "Método",
-      "lawyer": "CEO"
+      "lawyer": "CEO",
+      "conferences": "Conferencias"
     },
     "headerCta": "Solicitar consulta",
     "badge": "Asistencia jurídica en cualquier parte del mundo",
@@ -112,6 +113,56 @@
       "Defensa penal global, con especialización en asuntos de alta complejidad.",
       "Defensa corporativa y asesoramiento a consejos de administración y organizaciones profesionales."
     ]
+  },
+  "conferences": {
+    "eyebrow": "Conferencias y formación",
+    "title": "Derecho, tecnología y estrategia aplicada a entornos reales.",
+    "description": "La práctica jurídica contemporánea exige algo más que conocimiento técnico: requiere comprensión estratégica del entorno tecnológico, capacidad de anticipación y una visión aplicada del Derecho en contextos complejos.",
+    "paragraphs": [
+      "Desde esta premisa, el Dr. Eduardo R. Luna Álvarez desarrolla una actividad continuada como ponente y formador en foros nacionales e internacionales, abordando materias clave como el derecho penal corporativo, la inteligencia artificial, la prueba digital y la transformación del sistema penal en la era tecnológica.",
+      "Sus intervenciones combinan rigor jurídico, enfoque práctico y capacidad divulgativa, participando en programas de televisión, formaciones policiales y entornos universitarios, trasladando el conocimiento jurídico a contextos reales de toma de decisiones."
+    ],
+    "featured": {
+      "eyebrow": "Formación especializada",
+      "text": "Formación especializada para instituciones, empresas y profesionales que operan en entornos jurídicos y tecnológicos de alta complejidad."
+    },
+    "topics": {
+      "eyebrow": "Áreas de conferencia",
+      "title": "Materias clave de intervención",
+      "items": [
+        "Inteligencia artificial y Derecho penal",
+        "Prueba digital y evidencia tecnológica en el proceso penal",
+        "Compliance penal y responsabilidad de la empresa",
+        "Ciberdelincuencia y nuevos riesgos jurídicos",
+        "Estrategia de defensa en entornos complejos",
+        "Impacto de la tecnología en el sistema judicial"
+      ]
+    },
+    "highlights": {
+      "title": "Intervenciones destacadas",
+      "description": "A lo largo de su trayectoria, el Dr. Luna ha participado en:",
+      "items": [
+        "Formación de cuerpos policiales y administraciones públicas",
+        "Programas de divulgación jurídica en televisión",
+        "Actividades docentes universitarias",
+        "Jornadas técnicas sobre Derecho y tecnología"
+      ]
+    },
+    "publicArchive": {
+      "eyebrow": "Archivo público",
+      "title": "Zona preparada para futuras intervenciones, entrevistas y materiales.",
+      "description": "Espacio pensado para incorporar próximamente vídeos, apariciones públicas y enlaces de referencia vinculados a su actividad divulgativa y formativa.",
+      "items": [
+        "Vídeos y conferencias",
+        "Entrevistas y apariciones",
+        "Enlaces públicos"
+      ]
+    },
+    "cta": {
+      "title": "Contratación de conferencias",
+      "description": "Si desea contratar una conferencia o diseñar una formación a medida para su organización, puede contactar directamente a través del siguiente formulario.",
+      "button": "Solicitar conferencia"
+    }
   },
   "contact": {
     "eyebrow": "Contacto",

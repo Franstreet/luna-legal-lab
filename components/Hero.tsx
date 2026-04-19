@@ -11,6 +11,7 @@ const navigation = [
   { key: "practiceAreas", href: "#areas" },
   { key: "method", href: "#method" },
   { key: "lawyer", href: "#lawyer" },
+  { key: "conferences", href: "#conferences" },
 ] as const;
 
 type HeroProps = {
@@ -48,12 +49,12 @@ export function Hero({ content, locale }: HeroProps) {
   return (
     <section
       id="top"
-      className="relative isolate min-h-[100svh] overflow-hidden bg-primary text-white"
+      className="relative isolate overflow-hidden bg-primary text-white xl:min-h-[100svh]"
     >
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(250,200,163,0.22),transparent_32%),radial-gradient(circle_at_bottom_right,rgba(250,200,163,0.08),transparent_30%)]" />
       <div className="absolute inset-x-0 bottom-0 h-px bg-white/10" />
 
-      <div className="relative mx-auto flex min-h-[100svh] w-full max-w-6xl flex-col px-6 sm:px-8 lg:px-12">
+      <div className="relative mx-auto flex w-full max-w-6xl flex-col px-6 sm:px-8 lg:px-12 xl:min-h-[100svh]">
         <header className="grid grid-cols-[auto_1fr] items-center gap-3 py-6 md:flex md:flex-wrap md:items-center md:justify-between md:gap-6">
           <a
             href="#top"
@@ -68,15 +69,23 @@ export function Hero({ content, locale }: HeroProps) {
           </a>
 
           <nav className="hidden items-center gap-8 text-sm text-white/65 md:flex">
-            {navigation.map((item) => (
-              <a
-                key={item.href}
-                href={item.href}
-                className="hover:text-secondary"
-              >
-                {content.navigation[item.key]}
-              </a>
-            ))}
+            {navigation.map((item) => {
+              const label = (content.navigation as Record<string, string | undefined>)[item.key];
+
+              if (!label) {
+                return null;
+              }
+
+              return (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  className="hover:text-secondary"
+                >
+                  {label}
+                </a>
+              );
+            })}
           </nav>
 
           <div className="flex min-w-0 items-center justify-end gap-2 md:ml-auto md:gap-3">
