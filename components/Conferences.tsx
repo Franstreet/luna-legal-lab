@@ -21,7 +21,20 @@ export function Conferences({ content }: ConferencesProps) {
           />
         </Reveal>
 
-        <div className="mt-16 grid gap-8 xl:grid-cols-[minmax(0,1.04fr)_minmax(300px,0.96fr)]">
+        <Reveal delay={180}>
+          <div className="mt-16 flex justify-center">
+            <a
+              href="https://www.youtube.com/@eduardolunaabogado/videos?app=desktop&view=0&sort=dd&shelf_id=1"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex w-fit items-center justify-center rounded-full border border-primary/14 bg-white/80 px-6 py-3 text-sm font-semibold text-primary shadow-[0_16px_40px_rgba(63,23,31,0.05)] hover:-translate-y-0.5 hover:border-primary/24 hover:bg-white"
+            >
+              {content.videoButton}
+            </a>
+          </div>
+        </Reveal>
+
+        <div className="mt-8 grid gap-8 xl:grid-cols-[minmax(0,1.04fr)_minmax(300px,0.96fr)]">
           <Reveal>
             <article className="rounded-[2rem] border border-primary/10 bg-white/78 p-8 shadow-[0_24px_80px_rgba(63,23,31,0.06)] sm:p-10">
               <p className="text-2xl leading-10 text-foreground/82">
