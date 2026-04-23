@@ -11,11 +11,14 @@ export function Footer({ content }: FooterProps) {
 
   return (
     <footer className="bg-[#2f0f16] text-white/72">
+      {/* Decorative gradient line */}
+      <div className="h-px bg-linear-to-r from-secondary/20 via-secondary/50 to-secondary/20" />
+
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-8 px-6 py-10 sm:px-8 lg:flex-row lg:items-end lg:justify-between lg:px-12">
         <div>
           <a
             href="#top"
-            className="font-display text-4xl leading-none text-white sm:text-5xl"
+            className="font-display text-4xl leading-none text-white transition-colors hover:text-secondary sm:text-5xl"
           >
             {content.brand}
           </a>

@@ -36,7 +36,7 @@ export function Conferences({ content }: ConferencesProps) {
 
         <div className="mt-8 grid gap-8 xl:grid-cols-[minmax(0,1.04fr)_minmax(300px,0.96fr)]">
           <Reveal>
-            <article className="rounded-[2rem] border border-primary/10 bg-white/78 p-8 shadow-[0_24px_80px_rgba(63,23,31,0.06)] sm:p-10">
+            <article className="rounded-4xl border border-primary/10 bg-white/78 p-8 shadow-[0_24px_80px_rgba(63,23,31,0.06)] sm:p-10">
               <p className="text-2xl leading-10 text-foreground/82">
                 {content.paragraphs[0]}
               </p>
@@ -44,7 +44,7 @@ export function Conferences({ content }: ConferencesProps) {
                 {content.paragraphs[1]}
               </p>
 
-              <div className="mt-8 rounded-[1.5rem] border border-primary/10 bg-sand/60 p-6 shadow-[0_16px_50px_rgba(63,23,31,0.04)]">
+              <div className="mt-8 rounded-3xl border border-primary/10 bg-sand/60 p-6 shadow-[0_16px_50px_rgba(63,23,31,0.04)]">
                 <p className="text-xs font-semibold uppercase tracking-[0.32em] text-primary/45">
                   {content.featured.eyebrow}
                 </p>
@@ -57,7 +57,7 @@ export function Conferences({ content }: ConferencesProps) {
 
           <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-1">
             <Reveal delay={120}>
-              <article className="rounded-[1.5rem] border border-primary/10 bg-white/80 p-6 shadow-[0_18px_48px_rgba(63,23,31,0.04)]">
+              <article className="rounded-3xl border border-primary/10 bg-white/80 p-6 shadow-[0_18px_48px_rgba(63,23,31,0.04)]">
                 <h3 className="font-display text-[2.1rem] leading-none text-primary">
                   {content.highlights.title}
                 </h3>
@@ -79,7 +79,7 @@ export function Conferences({ content }: ConferencesProps) {
             </Reveal>
 
             <Reveal delay={240}>
-              <article className="rounded-[1.5rem] border border-primary/10 bg-[linear-gradient(145deg,rgba(255,250,245,0.94),rgba(250,200,163,0.22))] p-6 shadow-[0_18px_48px_rgba(63,23,31,0.04)]">
+              <article className="rounded-3xl border border-primary/10 bg-[linear-gradient(145deg,rgba(255,250,245,0.94),rgba(250,200,163,0.22))] p-6 shadow-[0_18px_48px_rgba(63,23,31,0.04)]">
                 <p className="text-xs font-semibold uppercase tracking-[0.32em] text-primary/45">
                   {content.publicArchive.eyebrow}
                 </p>
@@ -105,6 +105,7 @@ export function Conferences({ content }: ConferencesProps) {
           </div>
         </div>
 
+        {/* Topics section */}
         <div className="mt-16">
           <Reveal>
             <div className="max-w-3xl">
@@ -120,23 +121,38 @@ export function Conferences({ content }: ConferencesProps) {
           <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
             {content.topics.items.map((item, index) => (
               <Reveal key={item} delay={index * 80}>
-                <article className="h-full rounded-[1.5rem] border border-primary/10 bg-white/80 p-6 shadow-[0_18px_48px_rgba(63,23,31,0.04)]">
-                  <p className="text-xs font-semibold uppercase tracking-[0.28em] text-primary/40">
+                <article className="group h-full cursor-default rounded-3xl border border-primary/10 bg-white/80 p-6 shadow-[0_18px_48px_rgba(63,23,31,0.04)] transition-all duration-300 hover:-translate-y-1 hover:bg-linear-to-b hover:from-white hover:to-sand/40 hover:shadow-[0_28px_64px_rgba(63,23,31,0.09)]">
+                  <p className="text-xs font-semibold uppercase tracking-[0.28em] text-primary/40 transition-colors duration-300 group-hover:text-secondary">
                     {String(index + 1).padStart(2, "0")}
                   </p>
-                  <h4 className="mt-5 font-display text-[2rem] leading-[1.02] text-primary">
+                  <h4 className="mt-5 font-display text-[2rem] leading-[1.02] text-primary transition-transform duration-300 origin-left group-hover:scale-[1.025]">
                     {item}
                   </h4>
+                  {/* Accent line — slides in on hover */}
+                  <div className="mt-3 h-px w-0 bg-secondary/70 transition-all duration-300 group-hover:w-10" />
                 </article>
               </Reveal>
             ))}
           </div>
         </div>
 
+        {/* CTA block */}
         <Reveal delay={160}>
-          <div className="mt-16 rounded-[2rem] bg-primary p-8 shadow-[0_32px_90px_rgba(63,23,31,0.14)] sm:p-10">
-            <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-end">
+          <div className="relative mt-16 overflow-hidden rounded-4xl bg-primary p-8 shadow-[0_32px_90px_rgba(63,23,31,0.14)] sm:p-10">
+            {/* Dot texture */}
+            <div
+              className="pointer-events-none absolute inset-0 opacity-[0.06]"
+              style={{
+                backgroundImage: "radial-gradient(circle, #fac8a3 1px, transparent 1px)",
+                backgroundSize: "22px 22px",
+              }}
+              aria-hidden="true"
+            />
+
+            <div className="relative grid gap-8 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-end">
               <div>
+                {/* Decorative gradient line above title */}
+                <div className="mb-6 h-px bg-linear-to-r from-secondary/20 via-secondary/50 to-secondary/20" />
                 <h3 className="font-display text-4xl leading-none text-white sm:text-5xl">
                   {content.cta.title}
                 </h3>

@@ -69,7 +69,8 @@
         "title": "Inteligencia Artificial",
         "text": "Responsabilidad por uso de IA, gobernanza, prevención de riesgos, I+D+I."
       }
-    ]
+    ],
+    "cta": "Solicitar consulta"
   },
   "method": {
     "eyebrow": "Método",
@@ -108,6 +109,12 @@
       "En reconocimiento a su trayectoria profesional, ha sido distinguido con el Premio Nacional de Ley 2021 al mejor abogado en derecho penal."
     ],
     "fullProfileCta": "Publicaciones y Artículos.",
+    "award": "Premio Nacional de Ley 2021",
+    "stats": [
+      { "value": 2, "suffix": "", "label": "Doctorados" },
+      { "value": 15, "suffix": "+", "label": "Años de trayectoria" },
+      { "value": 50, "suffix": "+", "label": "Publicaciones científicas" }
+    ],
     "pillars": [
       "Dictámenes e informes para estamentos oficiales y cuerpos policiales.",
       "Defensa penal global, con especialización en asuntos de alta complejidad.",
@@ -195,6 +202,7 @@
       "messageLabel": "Mensaje",
       "messagePlaceholder": "Cuéntanos brevemente en qué podemos ayudarte.",
       "submit": "Enviar",
+      "sending": "Enviando...",
       "helperText": "Interfaz preparada para conectar email, CRM o backend cuando lo decidamos.",
       "successMessage": "Mensaje capturado en la interfaz. El siguiente paso será conectarlo a un sistema real de envío."
     }

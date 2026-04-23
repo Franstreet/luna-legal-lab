@@ -69,7 +69,8 @@
         "title": "Artificial Intelligence",
         "text": "Liability arising from the use of AI, governance, risk prevention, and R&D&I."
       }
-    ]
+    ],
+    "cta": "Request consultation"
   },
   "method": {
     "eyebrow": "Method",
@@ -108,6 +109,12 @@
       "In recognition of his professional career, he was awarded the 2021 National Ley Award for Best Criminal Law Lawyer."
     ],
     "fullProfileCta": "Publications and Articles.",
+    "award": "National Law Award 2021",
+    "stats": [
+      { "value": 2, "suffix": "", "label": "Doctorates" },
+      { "value": 15, "suffix": "+", "label": "Years of career" },
+      { "value": 50, "suffix": "+", "label": "Scientific publications" }
+    ],
     "pillars": [
       "Opinions and expert reports for public institutions and police forces.",
       "Global criminal defense with a specialization in high-complexity matters.",
@@ -194,6 +201,7 @@
       "messageLabel": "Message",
       "messagePlaceholder": "Briefly tell us how we can help.",
       "submit": "Send",
+      "sending": "Sending...",
       "helperText": "Interface ready to connect with email, CRM, or backend whenever required.",
       "successMessage": "Your message has been captured in the interface. The next step will be to connect it to a live delivery system."
     }

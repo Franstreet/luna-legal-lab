@@ -8,6 +8,7 @@ import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
 import { Method } from "@/components/Method";
 import { PracticeAreas } from "@/components/PracticeAreas";
+import { SectionFade } from "@/components/SectionFade";
 import fallbackMessages from "@/messages/es.json";
 import { getDictionary, hasLocale } from "@/lib/i18n";
 
@@ -31,9 +32,11 @@ export default async function Home({ params }: LangPageProps) {
     <>
       <main className="overflow-x-hidden">
         <Hero content={dictionary.hero} locale={lang} />
+        <SectionFade from="dark" />
         <About content={dictionary.about} />
         <PracticeAreas content={dictionary.practiceAreas} />
         <Method content={dictionary.method} />
+        <SectionFade from="dark" />
         <AboutLawyer content={dictionary.aboutLawyer} locale={lang} />
         <Conferences content={conferencesContent} />
         <Contact content={dictionary.contact} />

@@ -69,7 +69,8 @@
         "title": "Künstliche Intelligenz",
         "text": "Verantwortung beim Einsatz von KI, Governance, Risikoprävention sowie Forschung, Entwicklung und Innovation."
       }
-    ]
+    ],
+    "cta": "Beratung anfragen"
   },
   "method": {
     "eyebrow": "Methode",
@@ -108,6 +109,12 @@
       "In Anerkennung seiner beruflichen Laufbahn wurde er mit dem Nationalen Ley-Preis 2021 als bester Anwalt im Strafrecht ausgezeichnet."
     ],
     "fullProfileCta": "Publikationen und Artikel.",
+    "award": "Nationaler Rechtsanwaltspreis 2021",
+    "stats": [
+      { "value": 2, "suffix": "", "label": "Doktortitel" },
+      { "value": 15, "suffix": "+", "label": "Jahre Erfahrung" },
+      { "value": 50, "suffix": "+", "label": "Wissenschaftliche Pub." }
+    ],
     "pillars": [
       "Gutachten und Berichte für staatliche Stellen und Polizeibehörden.",
       "Globale Strafverteidigung mit Spezialisierung auf hochkomplexe Fälle.",
@@ -194,6 +201,7 @@
       "messageLabel": "Nachricht",
       "messagePlaceholder": "Schildern Sie uns kurz, wie wir Ihnen helfen können.",
       "submit": "Senden",
+      "sending": "Senden...",
       "helperText": "Oberfläche bereit, um später E-Mail, CRM oder Backend anzubinden.",
       "successMessage": "Nachricht in der Oberfläche erfasst. Im nächsten Schritt wird sie an ein reales Versandsystem angebunden."
     }

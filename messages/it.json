@@ -69,7 +69,8 @@
         "title": "Intelligenza artificiale",
         "text": "Responsabilità per l'uso dell'IA, governance, prevenzione dei rischi, ricerca, sviluppo e innovazione."
       }
-    ]
+    ],
+    "cta": "Richiedi una consulenza"
   },
   "method": {
     "eyebrow": "Metodo",
@@ -108,6 +109,12 @@
       "In riconoscimento della sua traiettoria professionale, gli è stato conferito il Premio Nazionale Ley 2021 come miglior avvocato penalista."
     ],
     "fullProfileCta": "Pubblicazioni e articoli.",
+    "award": "Premio Nazionale Ley 2021",
+    "stats": [
+      { "value": 2, "suffix": "", "label": "Dottorati" },
+      { "value": 15, "suffix": "+", "label": "Anni di carriera" },
+      { "value": 50, "suffix": "+", "label": "Pubblicazioni scientifiche" }
+    ],
     "pillars": [
       "Redazione di pareri e relazioni per enti ufficiali e forze di polizia.",
       "Difesa penale globale con specializzazione in casi ad alta complessità.",
@@ -194,6 +201,7 @@
       "messageLabel": "Messaggio",
       "messagePlaceholder": "Descrivici brevemente come possiamo aiutarti.",
       "submit": "Invia",
+      "sending": "Invio...",
       "helperText": "Interfaccia pronta per essere collegata a email, CRM o backend.",
       "successMessage": "Messaggio ricevuto. Il prossimo passo sarà collegarlo a un sistema reale di invio."
     }
