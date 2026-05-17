@@ -91,13 +91,20 @@ export function Conferences({ content }: ConferencesProps) {
                 </p>
 
                 <div className="mt-6 flex flex-wrap gap-2">
-                  {content.publicArchive.items.map((item) => (
-                    <span
+                  {content.publicArchive.items.map((item, idx) => (
+                    <a
                       key={item}
-                      className="rounded-full border border-primary/12 bg-white/70 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-primary/55"
+                      href={[
+                        "https://www.youtube.com/@eduardolunaabogado/videos?app=desktop&view=0&sort=dd&shelf_id=1",
+                        "https://fibwi.live/es/tv/Precluidos/226",
+                        "https://www.instagram.com/dreduardoluna/",
+                      ][idx]}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="rounded-full border border-primary/12 bg-white/70 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-primary/55 transition-colors duration-200 hover:border-primary/24 hover:bg-white hover:text-primary"
                     >
                       {item}
-                    </span>
+                    </a>
                   ))}
                 </div>
               </article>
@@ -121,7 +128,7 @@ export function Conferences({ content }: ConferencesProps) {
           <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
             {content.topics.items.map((item, index) => (
               <Reveal key={item} delay={index * 80}>
-                <article className="group h-full cursor-default rounded-3xl border border-primary/10 bg-white/80 p-6 shadow-[0_18px_48px_rgba(63,23,31,0.04)] transition-all duration-300 hover:-translate-y-1 hover:bg-linear-to-b hover:from-white hover:to-sand/40 hover:shadow-[0_28px_64px_rgba(63,23,31,0.09)]">
+                <article className="group h-full cursor-default rounded-3xl border border-primary/10 bg-white/80 p-6 shadow-[0_18px_48px_rgba(63,23,31,0.04)] transition-[transform,box-shadow] duration-250 hover:-translate-y-1 hover:bg-linear-to-b hover:from-white hover:to-sand/40 hover:shadow-[0_28px_64px_rgba(63,23,31,0.09)]">
                   <p className="text-xs font-semibold uppercase tracking-[0.28em] text-primary/40 transition-colors duration-300 group-hover:text-secondary">
                     {String(index + 1).padStart(2, "0")}
                   </p>
@@ -129,7 +136,7 @@ export function Conferences({ content }: ConferencesProps) {
                     {item}
                   </h4>
                   {/* Accent line — slides in on hover */}
-                  <div className="mt-3 h-px w-0 bg-secondary/70 transition-all duration-300 group-hover:w-10" />
+                  <div className="mt-3 h-px w-0 bg-secondary/70 transition-[width] duration-300 group-hover:w-10" />
                 </article>
               </Reveal>
             ))}
@@ -163,7 +170,7 @@ export function Conferences({ content }: ConferencesProps) {
 
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center rounded-full bg-secondary px-7 py-4 text-base font-semibold text-primary shadow-[0_20px_50px_rgba(0,0,0,0.18)] hover:-translate-y-0.5 hover:bg-[#ffd8bc]"
+                className="inline-flex items-center justify-center rounded-full bg-secondary px-7 py-4 text-base font-semibold text-primary shadow-[0_20px_50px_rgba(0,0,0,0.18)] transition-[transform,background-color] duration-150 hover:-translate-y-0.5 hover:bg-[#ffd8bc] active:scale-[0.97]"
               >
                 {content.cta.button}
               </a>

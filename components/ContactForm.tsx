@@ -12,7 +12,7 @@ const inputClass =
   "peer w-full rounded-2xl border border-white/12 bg-white/6 px-4 pt-6 pb-2 text-base text-white outline-none transition-colors focus:border-secondary focus:bg-white/10";
 
 const labelClass =
-  "pointer-events-none absolute left-4 top-2 text-xs font-medium text-white/45 transition-all duration-200 peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-placeholder-shown:text-white/45 peer-focus:top-2 peer-focus:text-xs peer-focus:text-secondary";
+  "pointer-events-none absolute left-4 top-2 text-xs font-medium text-white/45 transition-[top,font-size,color] duration-200 peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-placeholder-shown:text-white/45 peer-focus:top-2 peer-focus:text-xs peer-focus:text-secondary";
 
 export function ContactForm({ content }: ContactFormProps) {
   const [sending, setSending] = useState(false);
@@ -75,7 +75,7 @@ export function ContactForm({ content }: ContactFormProps) {
         />
         <label
           htmlFor="contact-message"
-          className="pointer-events-none absolute left-4 top-3 text-xs font-medium text-white/45 transition-all duration-200 peer-placeholder-shown:top-4 peer-placeholder-shown:text-sm peer-placeholder-shown:text-white/45 peer-focus:top-3 peer-focus:text-xs peer-focus:text-secondary"
+          className="pointer-events-none absolute left-4 top-3 text-xs font-medium text-white/45 transition-[top,font-size,color] duration-200 peer-placeholder-shown:top-4 peer-placeholder-shown:text-sm peer-placeholder-shown:text-white/45 peer-focus:top-3 peer-focus:text-xs peer-focus:text-secondary"
         >
           {content.messageLabel}
         </label>
@@ -85,7 +85,7 @@ export function ContactForm({ content }: ContactFormProps) {
         <button
           type="submit"
           disabled={sending}
-          className="inline-flex items-center justify-center gap-2.5 rounded-full bg-secondary px-7 py-4 text-base font-semibold text-primary shadow-[0_16px_40px_rgba(0,0,0,0.14)] transition-all hover:-translate-y-0.5 hover:bg-[#ffd8bc] disabled:cursor-not-allowed disabled:opacity-70 disabled:hover:translate-y-0"
+          className="inline-flex items-center justify-center gap-2.5 rounded-full bg-secondary px-7 py-4 text-base font-semibold text-primary shadow-[0_16px_40px_rgba(0,0,0,0.14)] transition-[transform,background-color,opacity] duration-150 hover:-translate-y-0.5 hover:bg-[#ffd8bc] active:scale-[0.97] disabled:cursor-not-allowed disabled:opacity-70 disabled:hover:translate-y-0"
         >
           {sending ? (
             <>

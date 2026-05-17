@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 
-import { CustomCursor } from "@/components/CustomCursor";
 import { HtmlLangSync } from "@/components/HtmlLangSync";
 import { getDictionary, hasLocale } from "@/lib/i18n";
 import { locales } from "@/lib/i18n-config";
@@ -46,7 +45,6 @@ export default async function LangLayout({
   return (
     <>
       <HtmlLangSync lang={lang} />
-      <CustomCursor />
       {children}
     </>
   );

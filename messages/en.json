@@ -11,8 +11,8 @@
     "headerCta": "Request Consultation",
     "badge": "Legal assistance anywhere in the world",
     "title": "Criminal and Corporate Law",
-    "subtitle": "Strategic criminal defense in technological, corporate, and high-complexity environments.",
-    "description": "Strategic legal counsel for clients, companies, and organizations seeking rigorous, reputation-conscious, and globally minded defense.",
+    "subtitle": "Strategic criminal defense for specialized cases in high-complexity environments.",
+    "description": "Strategic legal counsel for individuals, companies, and organizations seeking rigorous and comprehensive defense.",
     "advisoryLabel": "Counsel",
     "primaryCta": "Request Consultation",
     "secondaryCta": "View Practice Areas",
@@ -50,8 +50,8 @@
   },
   "practiceAreas": {
     "eyebrow": "Practice Areas",
-    "title": "Criminal and Corporate Law",
-    "description": "A focused practice where law, business, and technology intersect directly.",
+    "title": "General Criminal Law and Corporate Criminal Law.",
+    "description": "Matters involving general offences with specialisation in complex environments and high-impact crimes. Specialised in the practice where law, business, and technology intersect directly.",
     "items": [
       {
         "title": "Cybercrime",
@@ -101,7 +101,7 @@
     "title": "Dr. Eduardo R. Luna Álvarez",
     "description": "Specialist in strategic criminal defense.",
     "paragraphs": [
-      "Doctor of Law and criminologist specialized in artificial intelligence, cybercrime, and neuroscience. Dr. Luna is a leading figure in criminal defense in complex cases with a high media profile.",
+      "Doctor of Law, lawyer and criminologist specialized in criminal law, cybercrime, artificial intelligence, and neuroscience. Dr. Luna is a leading figure in criminal defense in complex cases with a high media profile. With over 10 years of experience advising and defending Law Enforcement and Security Forces.",
       "He practices as a criminal defense lawyer, with a focus on criminal law, cybercrime, and the new challenges arising from the use of artificial intelligence systems. His academic background includes a Master's Degree in Security and Security Management, a Doctorate in Law from the University of the Balearic Islands, and a second doctorate currently underway in Neuroscience and Psychology.",
       "He combines his legal practice with academic work as an Associate Professor at the University of the Balearic Islands, as well as specialized training for members of the State Security Forces and Corps through the Balearic School of Public Administration. He also serves on consultative bodies and advisory boards for various organizations and institutions.",
       "Eduardo is a regular contributor to various media outlets, where he carries out public-facing legal outreach on matters related to criminal law.",
@@ -157,13 +157,13 @@
       ]
     },
     "publicArchive": {
-      "eyebrow": "Public Archive",
-      "title": "A space prepared for future talks, interviews, and materials.",
-      "description": "A section designed to incorporate videos, public appearances, and reference links connected to his speaking and training work.",
+      "eyebrow": "Multimedia",
+      "title": "Videos, outreach and collaborations.",
+      "description": "Access audiovisual content, legal outreach programmes and media collaborations linked to Dr. Luna's work.",
       "items": [
-        "Videos and conferences",
-        "Interviews and appearances",
-        "Public links"
+        "Videos and Conferences",
+        "Legal outreach",
+        "Media collaborations"
       ]
     },
     "cta": {

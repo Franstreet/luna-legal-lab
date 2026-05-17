@@ -47,11 +47,11 @@ export function PracticeAreas({ content }: PracticeAreasProps) {
         <div className="mt-16 grid gap-6">
           {/* ── Featured card — Ciberdelitos (col-span full) ── */}
           <Reveal delay={0}>
-            <article className="group relative min-h-55 overflow-hidden rounded-4xl border border-primary/10 bg-linear-to-br from-white to-sand/60 p-8 shadow-[0_24px_60px_rgba(63,23,31,0.05)] transition-all duration-300 hover:-translate-y-1 hover:border-primary/20 hover:shadow-[0_28px_80px_rgba(63,23,31,0.10)] sm:p-10">
+            <article className="group relative min-h-55 overflow-hidden rounded-4xl border border-primary/10 bg-linear-to-br from-white to-sand/60 p-8 shadow-[0_24px_60px_rgba(63,23,31,0.05)] transition-[transform,border-color,box-shadow] duration-250 hover:-translate-y-1 hover:border-primary/20 hover:shadow-[0_28px_80px_rgba(63,23,31,0.10)] sm:p-10">
               {/* Large decorative "01" */}
               <span
                 aria-hidden="true"
-                className="pointer-events-none absolute right-4 top-0 select-none font-display text-[12rem] leading-none text-primary/4 transition-all duration-500 group-hover:text-primary/[0.07]"
+                className="pointer-events-none absolute right-4 top-0 select-none font-display text-[12rem] leading-none text-primary/4 transition-[color] duration-500 group-hover:text-primary/[0.07]"
               >
                 01
               </span>
@@ -76,7 +76,7 @@ export function PracticeAreas({ content }: PracticeAreasProps) {
 
               {/* Divider */}
               <div className="mt-5 h-px overflow-hidden bg-primary/8">
-                <div className="h-px w-0 bg-secondary/60 transition-all duration-500 ease-out group-hover:w-full" />
+                <div className="h-px w-0 bg-secondary/60 transition-[width] duration-350 ease-out group-hover:w-full" />
               </div>
 
               {/* Text */}
@@ -101,7 +101,7 @@ export function PracticeAreas({ content }: PracticeAreasProps) {
               const index = i + 1;
               return (
                 <Reveal key={area.title} delay={index * 120}>
-                  <article className="group relative min-h-50 overflow-hidden rounded-4xl border border-primary/10 bg-white p-8 shadow-[0_24px_60px_rgba(63,23,31,0.05)] transition-all duration-300 hover:-translate-y-1 hover:border-primary/20 hover:shadow-[0_28px_80px_rgba(63,23,31,0.10)] sm:p-10">
+                  <article className="group relative min-h-50 overflow-hidden rounded-4xl border border-primary/10 bg-white p-8 shadow-[0_24px_60px_rgba(63,23,31,0.05)] transition-[transform,border-color,box-shadow] duration-250 hover:-translate-y-1 hover:border-primary/20 hover:shadow-[0_28px_80px_rgba(63,23,31,0.10)] sm:p-10">
                     {/* Left accent line */}
                     <div className="absolute inset-y-0 left-0 w-0.5 origin-bottom scale-y-0 rounded-full bg-linear-to-t from-secondary via-secondary/60 to-transparent transition-transform duration-500 ease-out group-hover:scale-y-100" />
 
@@ -122,7 +122,7 @@ export function PracticeAreas({ content }: PracticeAreasProps) {
 
                     {/* Divider */}
                     <div className="mt-5 h-px overflow-hidden bg-primary/8">
-                      <div className="h-px w-0 bg-secondary/60 transition-all duration-500 ease-out group-hover:w-full" />
+                      <div className="h-px w-0 bg-secondary/60 transition-[width] duration-350 ease-out group-hover:w-full" />
                     </div>
 
                     {/* Text */}

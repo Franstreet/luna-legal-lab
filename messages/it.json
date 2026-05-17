@@ -11,8 +11,8 @@
     "headerCta": "Richiedi consulenza",
     "badge": "Assistenza legale in qualsiasi parte del mondo",
     "title": "Diritto penale e societario",
-    "subtitle": "Difesa penale strategica in contesti tecnologici, aziendali e ad alta complessità.",
-    "description": "Consulenza legale strategica per clienti, aziende e organizzazioni che richiedono una difesa rigorosa, reputazionale e globale.",
+    "subtitle": "Difesa penale strategica specializzata in contesti ad alta complessità.",
+    "description": "Consulenza legale strategica per privati, aziende e organizzazioni che richiedono una difesa rigorosa e integrale.",
     "advisoryLabel": "Consulenza",
     "primaryCta": "Richiedi consulenza",
     "secondaryCta": "Scopri le aree di specializzazione",
@@ -50,8 +50,8 @@
   },
   "practiceAreas": {
     "eyebrow": "Aree di specializzazione",
-    "title": "Diritto penale e societario",
-    "description": "Una pratica focalizzata nei settori in cui diritto, impresa e tecnologia si intersecano direttamente.",
+    "title": "Diritto Penale Generale e Diritto Penale Societario.",
+    "description": "Questioni relative a reati generali con specializzazione in contesti complessi e reati ad alto impatto. Specializzati nella pratica in cui diritto, impresa e tecnologia si intersecano direttamente.",
     "items": [
       {
         "title": "Reati informatici",
@@ -101,7 +101,7 @@
     "title": "Dr. Eduardo R. Luna Álvarez",
     "description": "Specialista in difesa penale strategica.",
     "paragraphs": [
-      "Dottore in Giurisprudenza e criminologo specializzato in intelligenza artificiale, criminalità informatica e neuroscienze. Il Dr. Luna è un punto di riferimento nella difesa penale in contesti complessi e ad alto impatto mediatico.",
+      "Dottore in Giurisprudenza, avvocato e criminologo specializzato in diritto penale, reati informatici, intelligenza artificiale e neuroscienze. Il Dr. Luna è un punto di riferimento nella difesa penale in contesti complessi e ad alto impatto mediatico. Con oltre 10 anni di esperienza nella difesa e consulenza delle Forze dell'Ordine.",
       "Svolge la propria attività professionale come avvocato penalista, con una pratica incentrata sul diritto penale, sulla criminalità informatica e sulle nuove sfide derivanti dall'uso di sistemi di intelligenza artificiale. La sua formazione accademica comprende un Master in Sicurezza e Gestione della Sicurezza, un Dottorato in Giurisprudenza presso l'Università delle Isole Baleari e un secondo dottorato attualmente in corso in Neuroscienze e Psicologia.",
       "Affianca all'esercizio della professione l'attività accademica come professore associato presso l'Università delle Isole Baleari, nonché la formazione specialistica rivolta ai membri delle Forze e dei Corpi di Sicurezza attraverso la Scuola Balearica di Amministrazioni Pubbliche. Fa inoltre parte di organi consultivi e consigli di amministrazione di diverse organizzazioni e istituzioni.",
       "Eduardo collabora abitualmente con diversi mezzi di comunicazione, nei quali svolge un'attività divulgativa su temi legati al diritto penale.",
@@ -157,13 +157,13 @@
       ]
     },
     "publicArchive": {
-      "eyebrow": "Archivio pubblico",
-      "title": "Spazio predisposto per futuri interventi, interviste e materiali.",
-      "description": "Area pensata per integrare in futuro video, apparizioni pubbliche e link di riferimento collegati alla sua attività divulgativa e formativa.",
+      "eyebrow": "Multimedia",
+      "title": "Video, divulgazione e collaborazioni.",
+      "description": "Accedi ai contenuti audiovisivi, ai programmi di divulgazione giuridica e alle collaborazioni con i media legate all'attività del Dr. Luna.",
       "items": [
-        "Video e conferenze",
-        "Interviste e apparizioni",
-        "Link pubblici"
+        "Video e Conferenze",
+        "Divulgazione giuridica",
+        "Collaborazioni con i media"
       ]
     },
     "cta": {

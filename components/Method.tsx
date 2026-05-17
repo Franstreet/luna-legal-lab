@@ -62,7 +62,7 @@ export function Method({ content }: MethodProps) {
                   {String(index + 1).padStart(2, "0")}
                 </p>
                 {/* Accent line */}
-                <div className="mt-8 h-px w-8 bg-secondary/40 transition-all duration-500 group-hover:w-14 group-hover:bg-secondary/70 lg:mt-0" />
+                <div className="mt-8 h-px w-8 bg-secondary/40 transition-[width,background-color] duration-300 group-hover:w-14 group-hover:bg-secondary/70 lg:mt-0" />
                 <h3 className="mt-6 font-display text-4xl leading-none text-white">
                   {step.title}
                 </h3>

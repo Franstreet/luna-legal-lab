@@ -166,13 +166,13 @@ export function Hero({ content, locale }: HeroProps) {
             >
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center rounded-full bg-secondary px-7 py-4 text-base font-semibold text-primary shadow-[0_20px_50px_rgba(0,0,0,0.18)] hover:-translate-y-0.5 hover:bg-[#ffd8bc]"
+                className="inline-flex items-center justify-center rounded-full bg-secondary px-7 py-4 text-base font-semibold text-primary shadow-[0_20px_50px_rgba(0,0,0,0.18)] transition-[transform,background-color] duration-150 hover:-translate-y-0.5 hover:bg-[#ffd8bc] active:scale-[0.97]"
               >
                 {content.primaryCta}
               </a>
               <a
                 href="#areas"
-                className="inline-flex items-center justify-center rounded-full border border-white/15 px-7 py-4 text-base font-semibold text-white hover:border-secondary hover:text-secondary"
+                className="inline-flex items-center justify-center rounded-full border border-white/15 px-7 py-4 text-base font-semibold text-white transition-[transform,border-color,color] duration-150 hover:border-secondary hover:text-secondary active:scale-[0.97]"
               >
                 {content.secondaryCta}
               </a>

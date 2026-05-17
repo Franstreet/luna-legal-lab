@@ -11,8 +11,8 @@
     "headerCta": "Solicitar consulta",
     "badge": "Asistencia jurídica en cualquier parte del mundo",
     "title": "Derecho penal y corporativo",
-    "subtitle": "Defensa penal estratégica en entornos tecnológicos, corporativos y de alta complejidad.",
-    "description": "Asesoramiento estratégico para clientes, empresas y organizaciones que exigen una defensa rigurosa, reputacional y global.",
+    "subtitle": "Defensa penal estratégica general especializados en entornos de alta complejidad.",
+    "description": "Asesoramiento estratégico para particulares, empresas y organizaciones que exigen una defensa rigurosa e integral.",
     "advisoryLabel": "Asesoramiento",
     "primaryCta": "Solicitar consulta",
     "secondaryCta": "Ver áreas de especialización",
@@ -30,7 +30,7 @@
     "title": "Derecho y defensa estratégica adaptada a los nuevos escenarios jurídicos y sociales.",
     "description": "Luna Legal Lab nace tras la evolución del derecho tradicional hacia un modelo adaptado a los desafíos jurídicos y tecnológicos actuales.",
     "paragraphs": [
-      "La propuesta es sencilla: asesoramiento jurídico sobrio, estratégico y contemporáneo para personas, profesionales y organizaciones que necesitan respuestas claras ante problemas reales de nuestro tiempo.",
+      "La propuesta es sencilla: asesoramiento jurídico sobrio, estratégico y contemporáneo para particulares, profesionales y organizaciones que necesitan respuestas claras ante problemas reales de nuestro tiempo.",
       "Hoy en día, la defensa no puede centrarse únicamente en los juzgados. Los clientes necesitan una respuesta estratégica en diferentes entornos: medios de comunicación, sociedad, reputación y escenarios digitales."
     ],
     "values": [
@@ -50,8 +50,8 @@
   },
   "practiceAreas": {
     "eyebrow": "Áreas de especialización",
-    "title": "Derecho Penal y Corporativo",
-    "description": "Una práctica concentrada en materias donde el derecho, la empresa y la tecnología se cruzan de forma directa.",
+    "title": "Derecho Penal General y Derecho Penal Corporativo.",
+    "description": "Asuntos relativos a delitos generales con especialización en entornos complejos y delitos de alto impacto. Especializados en la práctica donde el derecho, la empresa y la tecnología se cruzan de forma directa.",
     "items": [
       {
         "title": "Ciberdelitos",
@@ -101,7 +101,7 @@
     "title": "Dr. Eduardo R. Luna Álvarez",
     "description": "Especialista en defensa penal estratégica.",
     "paragraphs": [
-      "Doctor en Derecho y criminólogo especializado en inteligencia artificial, ciberdelincuencia y neurociencia. El Dr. Luna es un referente en la defensa penal en contextos complejos y de alto impacto mediático.",
+      "Doctor en Derecho, abogado y criminólogo especializado en derecho penal, ciber delitos, inteligencia artificial y neurociencia. El Dr. Luna es un referente en la defensa penal en contextos complejos y de alto impacto mediático. Con más de 10 años de experiencia en defensa y asesoramiento de Fuerzas y Cuerpos de Seguridad.",
       "Desarrolla su actividad profesional como abogado penalista, con una práctica centrada en el derecho penal, la ciberdelincuencia y los nuevos desafíos derivados del uso de sistemas de inteligencia artificial. Su formación académica incluye un Máster en Seguridad y Gestión de la Seguridad, así como un Doctorado en Derecho por la Universidad de las Islas Baleares y un segundo Doctorado cursando en Neurociencia y psicología.",
       "Compagina su ejercicio profesional con la actividad académica como profesor asociado en la Universidad de las Islas Baleares, así como con la formación especializada a miembros de las Fuerzas y Cuerpos de Seguridad a través de la Escuela Balear de Administraciones Públicas. Asimismo, forma parte de órganos consultivos y consejos asesores de distintas organizaciones e instituciones.",
       "Eduardo es colaborador habitual de diferentes medios de comunicación donde ejerce una labor divulgativa sobre aspectos relacionados con el derecho penal.",
@@ -158,13 +158,13 @@
       ]
     },
     "publicArchive": {
-      "eyebrow": "Archivo público",
-      "title": "Zona preparada para futuras intervenciones, entrevistas y materiales.",
-      "description": "Espacio pensado para incorporar próximamente vídeos, apariciones públicas y enlaces de referencia vinculados a su actividad divulgativa y formativa.",
+      "eyebrow": "Multimedia",
+      "title": "Vídeos, divulgación y colaboraciones.",
+      "description": "Accede al contenido audiovisual, programas de divulgación jurídica y colaboraciones con medios vinculados a la actividad del Dr. Luna.",
       "items": [
-        "Vídeos y conferencias",
-        "Entrevistas y apariciones",
-        "Enlaces públicos"
+        "Vídeos y Conferencias",
+        "Divulgación jurídica",
+        "Colaboraciones con medios"
       ]
     },
     "cta": {

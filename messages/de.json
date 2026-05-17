@@ -11,8 +11,8 @@
     "headerCta": "Beratung anfragen",
     "badge": "Juristische Unterstützung überall auf der Welt",
     "title": "Strafrecht und Corporate Law",
-    "subtitle": "Strategische Strafverteidigung in technologischen, unternehmerischen und hochkomplexen Zusammenhängen.",
-    "description": "Strategische Rechtsberatung für Mandanten, Unternehmen und Organisationen, die eine konsequente, reputationsbezogene und globale Verteidigung verlangen.",
+    "subtitle": "Strategische Strafverteidigung für spezialisierte Fälle in hochkomplexen Zusammenhängen.",
+    "description": "Strategische Rechtsberatung für Privatpersonen, Unternehmen und Organisationen, die eine rigorose und umfassende Verteidigung verlangen.",
     "advisoryLabel": "Beratung",
     "primaryCta": "Beratung anfragen",
     "secondaryCta": "Spezialisierungsbereiche ansehen",
@@ -50,8 +50,8 @@
   },
   "practiceAreas": {
     "eyebrow": "Spezialisierungsbereiche",
-    "title": "Strafrecht und Corporate Law",
-    "description": "Eine Spezialisierung auf Bereiche, in denen Recht, Unternehmen und Technologie unmittelbar aufeinandertreffen.",
+    "title": "Allgemeines Strafrecht und Unternehmensstrafrecht.",
+    "description": "Angelegenheiten im Bereich allgemeiner Straftaten mit Spezialisierung auf komplexe Umfelder und schwerwiegende Delikte. Spezialisiert auf die Praxis, in der Recht, Wirtschaft und Technologie unmittelbar aufeinandertreffen.",
     "items": [
       {
         "title": "Cyberkriminalität",
@@ -101,7 +101,7 @@
     "title": "Dr. Eduardo R. Luna Álvarez",
     "description": "Spezialist für strategische Strafverteidigung.",
     "paragraphs": [
-      "Doktor der Rechtswissenschaften und Kriminologe mit Spezialisierung auf Künstliche Intelligenz, Cyberkriminalität und Neurowissenschaften. Dr. Luna gilt als Referenz in der Strafverteidigung in komplexen Fällen mit hoher medialer Aufmerksamkeit.",
+      "Doktor der Rechtswissenschaften, Rechtsanwalt und Kriminologe mit Spezialisierung auf Strafrecht, Cyberkriminalität, Künstliche Intelligenz und Neurowissenschaften. Dr. Luna gilt als Referenz in der Strafverteidigung in komplexen Fällen mit hoher medialer Aufmerksamkeit. Mit über 10 Jahren Erfahrung in der Verteidigung und Beratung von Sicherheits- und Polizeibehörden.",
       "Er ist als Strafverteidiger tätig, mit einer Praxis, die auf Strafrecht, Cyberkriminalität und die neuen Herausforderungen durch den Einsatz von Systemen der Künstlichen Intelligenz ausgerichtet ist. Seine akademische Ausbildung umfasst einen Master in Sicherheit und Sicherheitsmanagement, eine Promotion in Rechtswissenschaften an der Universität der Balearen sowie eine zweite laufende Promotion in Neurowissenschaften und Psychologie.",
       "Er verbindet seine anwaltliche Tätigkeit mit akademischer Arbeit als assoziierter Professor an der Universität der Balearen sowie mit spezialisierter Ausbildung für Angehörige der Sicherheitskräfte über die Balearische Schule für Öffentliche Verwaltung. Darüber hinaus gehört er beratenden Gremien und Beiräten verschiedener Organisationen und Institutionen an.",
       "Eduardo ist regelmäßiger Mitarbeiter verschiedener Medien, in denen er juristische Aufklärungsarbeit zu Themen des Strafrechts leistet.",
@@ -157,13 +157,13 @@
       ]
     },
     "publicArchive": {
-      "eyebrow": "Öffentliches Archiv",
-      "title": "Bereich vorbereitet für künftige Vorträge, Interviews und Materialien.",
-      "description": "Ein Bereich, der künftig Videos, öffentliche Auftritte und Referenzlinks im Zusammenhang mit seiner Vortrags- und Lehrtätigkeit aufnehmen kann.",
+      "eyebrow": "Multimedia",
+      "title": "Videos, Aufklärung und Kooperationen.",
+      "description": "Zugang zu audiovisuellen Inhalten, juristischen Aufklärungsprogrammen und Medienzusammenarbeiten im Zusammenhang mit der Tätigkeit von Dr. Luna.",
       "items": [
-        "Videos und Vorträge",
-        "Interviews und Auftritte",
-        "Öffentliche Links"
+        "Videos und Konferenzen",
+        "Juristische Aufklärung",
+        "Medienzusammenarbeit"
       ]
     },
     "cta": {

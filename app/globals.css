@@ -52,8 +52,3 @@ textarea {
   caret-color: var(--foreground);
 }
 
-/* ── Custom cursor (active on hover/fine-pointer devices) ── */
-.custom-cursor-active,
-.custom-cursor-active * {
-  cursor: none !important;
-}
