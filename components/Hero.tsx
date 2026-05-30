@@ -165,7 +165,9 @@ export function Hero({ content, locale }: HeroProps) {
               style={{ animation: "hero-entry 700ms 640ms cubic-bezier(0.16,1,0.3,1) both" }}
             >
               <a
-                href="#contact"
+                href="https://calendly.com/lunalegallab/30min"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-full bg-secondary px-7 py-4 text-base font-semibold text-primary shadow-[0_20px_50px_rgba(0,0,0,0.18)] transition-[transform,background-color] duration-150 hover:-translate-y-0.5 hover:bg-[#ffd8bc] active:scale-[0.97]"
               >
                 {content.primaryCta}

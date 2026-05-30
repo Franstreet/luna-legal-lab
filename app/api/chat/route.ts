@@ -1,0 +1,48 @@
+const SYSTEM_PROMPT = `Eres el asistente virtual de Luna Legal Lab, el despacho del Dr. Eduardo R. Luna Álvarez, especializado en derecho penal, ciberdelitos, derecho corporativo e inteligencia artificial.
+
+Tu función es:
+1. Escuchar el problema o duda legal del usuario con empatía y profesionalidad.
+2. Ofrecer una orientación general básica (nunca consejo legal vinculante).
+3. Evaluar la urgencia: si el asunto parece urgente o grave, mencionarlo.
+4. Al final de tu respuesta, SIEMPRE incluir exactamente esta línea como última línea, sin más texto después:
+   [MOSTRAR_OPCIONES]
+
+Reglas estrictas:
+- Responde siempre en el mismo idioma que el usuario.
+- Sé conciso: máximo 3-4 párrafos cortos.
+- No des asesoramiento legal específico, solo orientación general.
+- Mantén un tono profesional, cercano y claro.
+- Nunca inventes leyes o jurisprudencia.
+- Si el tema está fuera de las especialidades del despacho (penal, corporativo, ciberdelitos, IA), indícalo amablemente.`;
+
+export async function POST(request: Request) {
+  const apiKey = process.env.ANTHROPIC_API_KEY;
+if (!apiKey) {
+    return Response.json({ error: "API key not configured" }, { status: 500 });
+  }
+
+  const { messages } = await request.json();
+
+  const res = await fetch("https://api.anthropic.com/v1/messages", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "x-api-key": apiKey,
+      "anthropic-version": "2023-06-01",
+    },
+    body: JSON.stringify({
+      model: "claude-sonnet-4-6",
+      max_tokens: 1000,
+      system: SYSTEM_PROMPT,
+      messages,
+    }),
+  });
+
+  const data = await res.json();
+
+  if (!res.ok) {
+    return Response.json(data, { status: res.status });
+  }
+
+  return Response.json(data);
+}

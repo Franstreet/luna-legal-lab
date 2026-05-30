@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import LegalChatWidget from "@/components/LegalChatWidget";
 
 export const metadata: Metadata = {
   title: "Luna Legal Lab",
@@ -29,6 +30,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen bg-background font-sans text-foreground">
         {children}
+        <LegalChatWidget />
       </body>
     </html>
   );
