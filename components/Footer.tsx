@@ -7,7 +7,12 @@ type FooterProps = {
 export function Footer({ content }: FooterProps) {
   const year = new Date().getFullYear();
   const copyright = content.copyright.replace("{year}", String(year));
-  const phoneHref = `tel:${content.phone.replace(/\s+/g, "")}`;
+  const phoneNumbers = content.phone
+    .split("\n")
+    .map((phone) => phone.trim())
+    .filter(Boolean);
+  const inferredCountryCode =
+    phoneNumbers.find((phone) => phone.startsWith("+"))?.split(" ")[0] ?? "";
 
   return (
     <footer className="bg-[#2f0f16] text-white/72">
@@ -49,12 +54,22 @@ export function Footer({ content }: FooterProps) {
             <p className="font-semibold uppercase tracking-[0.28em] text-secondary/72">
               {content.phoneLabel}
             </p>
-            <a
-              href={phoneHref}
-              className="mt-2 block text-white/70 hover:text-secondary"
-            >
-              {content.phone}
-            </a>
+            <div className="mt-2 flex flex-col gap-1.5">
+              {phoneNumbers.map((phone) => {
+                const phoneHref = `tel:${(phone.startsWith("+") ? phone : `${inferredCountryCode} ${phone}`)
+                  .replace(/\s+/g, "")}`;
+
+                return (
+                  <a
+                    key={phone}
+                    href={phoneHref}
+                    className="block text-white/70 hover:text-secondary"
+                  >
+                    {phone}
+                  </a>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>

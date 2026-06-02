@@ -188,13 +188,13 @@
       },
       {
         "label": "Teléfono",
-        "value": "+34 601 349 061"
+        "value": "971 583 703"
       }
     ],
     "form": {
-      "eyebrow": "Solicitar consulta",
-      "title": "Cuéntenos su caso",
-      "description": "Cuéntenos su situación y valoraremos la mejor vía de actuación.",
+      "eyebrow": "Contacto",
+      "title": "Contacto general",
+      "description": "Envíenos su mensaje y le responderemos a la mayor brevedad posible. Para consultas jurídicas sobre un caso concreto, reserve una cita a través de nuestro sistema de consultas.",
       "nameLabel": "Nombre",
       "namePlaceholder": "Tu nombre",
       "emailLabel": "Email",
@@ -215,7 +215,7 @@
     "emailLabel": "Email",
     "email": "eduardo@lunalegallab.com",
     "phoneLabel": "Teléfono",
-    "phone": "+34 601 349 061",
+    "phone": "+34 659 805 906\n971 583 703",
     "copyright": "{year} Luna Legal Lab.",
     "note": "Calle Reina Esclaramunda nº1, 2º 1ª, Palma, Islas Baleares"
   },

@@ -15,6 +15,8 @@ const navigation = [
   { key: "conferences", href: "#conferences" },
 ] as const;
 
+const CALENDLY_URL = "https://calendly.com/lunalegallab/30min";
+
 type HeroProps = {
   content: Dictionary["hero"];
   locale: Locale;
@@ -108,7 +110,9 @@ export function Hero({ content, locale }: HeroProps) {
           >
             <LanguageSwitcher locale={locale} />
             <a
-              href="#contact"
+              href={CALENDLY_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex shrink-0 items-center rounded-full border border-white/15 px-3 py-2 text-[13px] font-semibold text-white hover:border-secondary hover:bg-white/6 hover:text-secondary sm:px-5 sm:py-2.5 sm:text-sm"
             >
               {content.headerCta}
@@ -165,7 +169,7 @@ export function Hero({ content, locale }: HeroProps) {
               style={{ animation: "hero-entry 700ms 640ms cubic-bezier(0.16,1,0.3,1) both" }}
             >
               <a
-                href="https://calendly.com/lunalegallab/30min"
+                href={CALENDLY_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-full bg-secondary px-7 py-4 text-base font-semibold text-primary shadow-[0_20px_50px_rgba(0,0,0,0.18)] transition-[transform,background-color] duration-150 hover:-translate-y-0.5 hover:bg-[#ffd8bc] active:scale-[0.97]"
