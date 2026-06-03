@@ -187,7 +187,7 @@
       },
       {
         "label": "Phone",
-        "value": "971 583 703"
+        "value": "+34 971 583 703"
       }
     ],
     "form": {
@@ -214,7 +214,7 @@
     "emailLabel": "Email",
     "email": "eduardo@lunalegallab.com",
     "phoneLabel": "Phone",
-    "phone": "+34 659 805 906\n971 583 703",
+    "phone": "+34 659 805 906\n+34 971 583 703",
     "copyright": "{year} Luna Legal Lab.",
     "note": "Calle Reina Esclaramunda No. 1, 2nd Floor, 1st Door, Palma, Balearic Islands"
   },
