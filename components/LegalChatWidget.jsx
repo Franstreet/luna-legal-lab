@@ -66,6 +66,22 @@ export default function LegalChatWidget() {
       });
 
       const data = await res.json();
+
+      // Límite de uso alcanzado
+      if (res.status === 429 || data.error === "rate_limited") {
+        setMessages((prev) => [
+          ...prev,
+          {
+            role: "assistant",
+            content:
+              "Ha alcanzado el límite de consultas gratuitas por hoy. Para continuar, puede contactar directamente con el despacho.",
+            showOptions: true,
+          },
+        ]);
+        setPhase("options");
+        return;
+      }
+
       const raw = data.content?.map((b) => b.text || "").join("") || "";
       const showOptions = raw.includes("[MOSTRAR_OPCIONES]");
       const content = raw.replace("[MOSTRAR_OPCIONES]", "").trim();

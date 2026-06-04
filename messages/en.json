@@ -191,9 +191,9 @@
       }
     ],
     "form": {
-      "eyebrow": "Contact",
-      "title": "General contact",
-      "description": "Send us your message and we will respond as soon as possible. For legal consultations regarding a specific matter, please book an appointment through our consultation system.",
+      "eyebrow": "Request Consultation",
+      "title": "Tell Us About Your Matter",
+      "description": "Tell us about your situation and we will assess the most appropriate course of action.",
       "nameLabel": "Name",
       "namePlaceholder": "Your name",
       "emailLabel": "Email",

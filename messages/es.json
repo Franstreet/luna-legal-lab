@@ -192,9 +192,9 @@
       }
     ],
     "form": {
-      "eyebrow": "Contacto",
-      "title": "Contacto general",
-      "description": "Envíenos su mensaje y le responderemos a la mayor brevedad posible. Para consultas jurídicas sobre un caso concreto, reserve una cita a través de nuestro sistema de consultas.",
+      "eyebrow": "Solicitar consulta",
+      "title": "Cuéntenos su caso",
+      "description": "Cuéntenos su situación y valoraremos la mejor vía de actuación.",
       "nameLabel": "Nombre",
       "namePlaceholder": "Tu nombre",
       "emailLabel": "Email",

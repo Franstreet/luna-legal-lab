@@ -191,9 +191,9 @@
       }
     ],
     "form": {
-      "eyebrow": "Kontakt",
-      "title": "Allgemeiner Kontakt",
-      "description": "Senden Sie uns Ihre Nachricht und wir antworten Ihnen so schnell wie möglich. Für rechtliche Beratungen zu einem konkreten Fall buchen Sie bitte einen Termin über unser Beratungssystem.",
+      "eyebrow": "Beratung anfragen",
+      "title": "Schildern Sie uns Ihren Fall",
+      "description": "Schildern Sie uns Ihre Situation, und wir prüfen den besten Handlungsweg.",
       "nameLabel": "Name",
       "namePlaceholder": "Ihr Name",
       "emailLabel": "E-Mail",

@@ -1,3 +1,13 @@
+import { Ratelimit } from "@upstash/ratelimit";
+import { Redis } from "@upstash/redis";
+
+// Rate limiter: 15 peticiones por hora por IP (≈ 3 conversaciones completas)
+const ratelimit = new Ratelimit({
+  redis: Redis.fromEnv(),
+  limiter: Ratelimit.slidingWindow(15, "1 h"),
+  prefix: "luna_legal_chat",
+});
+
 const SYSTEM_PROMPT = `Eres el asistente virtual de Luna Legal Lab, el despacho del Dr. Eduardo R. Luna Álvarez, especializado en derecho penal, ciberdelitos, derecho corporativo e inteligencia artificial.
 
 Tu función es:
@@ -16,11 +26,25 @@ Reglas estrictas:
 - Si el tema está fuera de las especialidades del despacho (penal, corporativo, ciberdelitos, IA), indícalo amablemente.`;
 
 export async function POST(request: Request) {
+  // ── Rate limiting por IP ──────────────────────────────────────────────────
+  const ip =
+    request.headers.get("x-forwarded-for")?.split(",")[0].trim() ??
+    request.headers.get("x-real-ip") ??
+    "anonymous";
+
+  const { success, remaining } = await ratelimit.limit(ip);
+
+  if (!success) {
+    return Response.json({ error: "rate_limited" }, { status: 429 });
+  }
+
+  // ── Validación de API key ─────────────────────────────────────────────────
   const apiKey = process.env.ANTHROPIC_API_KEY;
-if (!apiKey) {
+  if (!apiKey) {
     return Response.json({ error: "API key not configured" }, { status: 500 });
   }
 
+  // ── Llamada a Anthropic ───────────────────────────────────────────────────
   const { messages } = await request.json();
 
   const res = await fetch("https://api.anthropic.com/v1/messages", {
@@ -44,5 +68,5 @@ if (!apiKey) {
     return Response.json(data, { status: res.status });
   }
 
-  return Response.json(data);
+  return Response.json({ ...data, remaining });
 }

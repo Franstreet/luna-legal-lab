@@ -191,9 +191,9 @@
       }
     ],
     "form": {
-      "eyebrow": "Contatto",
-      "title": "Contatto generale",
-      "description": "Ci invii il suo messaggio e le risponderemo il prima possibile. Per consulenze legali relative a un caso concreto, prenoti un appuntamento tramite il nostro sistema di consulenza.",
+      "eyebrow": "Richiedi consulenza",
+      "title": "Raccontaci il tuo caso",
+      "description": "Descrivici la tua situazione e valuteremo la strategia più adeguata.",
       "nameLabel": "Nome",
       "namePlaceholder": "Il tuo nome",
       "emailLabel": "Email",
