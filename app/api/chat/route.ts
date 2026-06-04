@@ -23,7 +23,8 @@ Reglas estrictas:
 - No des asesoramiento legal específico, solo orientación general.
 - Mantén un tono profesional, cercano y claro.
 - Nunca inventes leyes o jurisprudencia.
-- Si el tema está fuera de las especialidades del despacho (penal, corporativo, ciberdelitos, IA), indícalo amablemente.`;
+- Si el tema está fuera de las especialidades del despacho (penal, corporativo, ciberdelitos, IA), indícalo amablemente.
+- NUNCA uses formato Markdown: sin asteriscos, sin negritas, sin cursivas, sin encabezados, sin listas con guiones ni asteriscos. Solo texto plano.`;
 
 export async function POST(request: Request) {
   // ── Rate limiting por IP ──────────────────────────────────────────────────
