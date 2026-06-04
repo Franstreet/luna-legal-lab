@@ -4,7 +4,7 @@ import { Redis } from "@upstash/redis";
 // Rate limiter: 15 peticiones por hora por IP (≈ 3 conversaciones completas)
 const ratelimit = new Ratelimit({
   redis: Redis.fromEnv(),
-  limiter: Ratelimit.slidingWindow(15, "1 h"),
+  limiter: Ratelimit.slidingWindow(5, "1 h"),
   prefix: "luna_legal_chat",
 });
 
