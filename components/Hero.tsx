@@ -31,9 +31,9 @@ export function Hero({ content, locale }: HeroProps) {
   });
 
   const serviceTitleSizeClass = isEnglish
-    ? "text-[clamp(2.9rem,7.5vw,5.8rem)] 2xl:text-[clamp(5.8rem,7vw,9rem)]"
-    : "text-[clamp(3.2rem,8vw,6.2rem)] 2xl:text-[clamp(6.2rem,7.5vw,9.5rem)]";
-  const serviceTitleWidthClass = isEnglish ? "max-w-[760px] 2xl:max-w-[1000px]" : "max-w-[860px] 2xl:max-w-[1100px]";
+    ? "text-[clamp(2.9rem,7.5vw,5.8rem)]"
+    : "text-[clamp(3.2rem,8vw,6.2rem)]";
+  const serviceTitleWidthClass = isEnglish ? "max-w-[760px]" : "max-w-[860px]";
 
   const serviceTitleParts =
     isEnglish && content.title.includes(" and ")
@@ -73,7 +73,7 @@ export function Hero({ content, locale }: HeroProps) {
         <span className="hero-particle absolute h-1.5 w-1.5 rounded-full bg-secondary/15" style={{ top: "85%", left: "20%", animationDelay: "3.5s", animationDuration: "10s" }} />
       </div>
 
-      <div className="relative mx-auto flex w-full max-w-6xl flex-col px-6 sm:px-8 lg:px-12 xl:min-h-[100svh] 2xl:max-w-[90rem]">
+      <div className="relative mx-auto flex w-full max-w-6xl flex-col px-6 sm:px-8 lg:px-12 xl:min-h-[100svh]">
         {/* Header */}
         <header className="relative grid grid-cols-[auto_1fr_auto] items-center gap-3 py-6 md:flex md:flex-wrap md:items-center md:justify-between md:gap-6">
           <a
@@ -126,7 +126,7 @@ export function Hero({ content, locale }: HeroProps) {
 
         {/* Main content */}
         <div className="grid flex-1 gap-14 pb-16 pt-10 lg:grid-cols-[minmax(0,1.12fr)_minmax(320px,0.88fr)] lg:items-start lg:gap-12 lg:pb-24 xl:items-center xl:pb-20 xl:pt-6">
-          <div className="max-w-[46rem] lg:-mt-4 2xl:max-w-[54rem]">
+          <div className="max-w-[46rem] lg:-mt-4">
             {/* Badge */}
             <div style={{ animation: "hero-entry 700ms 200ms cubic-bezier(0.16,1,0.3,1) both" }}>
               <p className="inline-flex rounded-full border border-white/12 bg-white/6 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-secondary/90">
@@ -158,7 +158,7 @@ export function Hero({ content, locale }: HeroProps) {
 
             {/* Subtitle */}
             <div style={{ animation: "hero-entry 700ms 500ms cubic-bezier(0.16,1,0.3,1) both" }}>
-              <p className="mt-8 max-w-2xl text-2xl font-medium leading-tight text-white/92 sm:text-3xl 2xl:text-4xl">
+              <p className="mt-8 max-w-2xl text-2xl font-medium leading-tight text-white/92 sm:text-3xl">
                 {content.subtitle}
               </p>
             </div>
@@ -187,7 +187,7 @@ export function Hero({ content, locale }: HeroProps) {
 
           {/* Focus card */}
           <div
-            className="flex flex-col gap-8 lg:max-w-[32rem] lg:self-start lg:pt-16 xl:pt-0 2xl:max-w-[38rem]"
+            className="flex flex-col gap-8 lg:max-w-[32rem] lg:self-start lg:pt-16 xl:pt-0"
             style={{ animation: "hero-entry 900ms 420ms cubic-bezier(0.16,1,0.3,1) both" }}
           >
             <div className="rounded-[2rem] border border-white/12 bg-white/6 p-8 backdrop-blur-sm">
