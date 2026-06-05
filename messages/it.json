@@ -111,9 +111,21 @@
     "fullProfileCta": "Pubblicazioni e articoli.",
     "award": "Premio Nazionale Ley 2021",
     "stats": [
-      { "value": 2, "suffix": "", "label": "Dottorati" },
-      { "value": 15, "suffix": "+", "label": "Anni di carriera" },
-      { "value": 50, "suffix": "+", "label": "Pubblicazioni scientifiche" }
+      {
+        "value": 2,
+        "suffix": "",
+        "label": "Dottorati"
+      },
+      {
+        "value": 15,
+        "suffix": "+",
+        "label": "Anni di carriera"
+      },
+      {
+        "value": 50,
+        "suffix": "+",
+        "label": "Pubblicazioni scientifiche"
+      }
     ],
     "pillars": [
       "Redazione di pareri e relazioni per enti ufficiali e forze di polizia.",
@@ -202,8 +214,9 @@
       "messagePlaceholder": "Descrivici brevemente come possiamo aiutarti.",
       "submit": "Invia",
       "sending": "Invio...",
-      "helperText": "Interfaccia pronta per essere collegata a email, CRM o backend.",
-      "successMessage": "Messaggio ricevuto. Il prossimo passo sarà collegarlo a un sistema reale di invio."
+      "helperText": "Rispondiamo entro 24 ore.",
+      "successMessage": "Messaggio inviato correttamente. La risponderemo a breve.",
+      "errorMessage": "Si è verificato un errore durante l'invio. Riprovi oppure scriva direttamente a eduardo@lunalegallab.com."
     }
   },
   "footer": {

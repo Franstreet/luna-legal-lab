@@ -111,9 +111,21 @@
     "fullProfileCta": "Publikationen und Artikel.",
     "award": "Nationaler Rechtsanwaltspreis 2021",
     "stats": [
-      { "value": 2, "suffix": "", "label": "Doktortitel" },
-      { "value": 15, "suffix": "+", "label": "Jahre Erfahrung" },
-      { "value": 50, "suffix": "+", "label": "Wissenschaftliche Pub." }
+      {
+        "value": 2,
+        "suffix": "",
+        "label": "Doktortitel"
+      },
+      {
+        "value": 15,
+        "suffix": "+",
+        "label": "Jahre Erfahrung"
+      },
+      {
+        "value": 50,
+        "suffix": "+",
+        "label": "Wissenschaftliche Pub."
+      }
     ],
     "pillars": [
       "Gutachten und Berichte für staatliche Stellen und Polizeibehörden.",
@@ -202,8 +214,9 @@
       "messagePlaceholder": "Schildern Sie uns kurz, wie wir Ihnen helfen können.",
       "submit": "Senden",
       "sending": "Senden...",
-      "helperText": "Oberfläche bereit, um später E-Mail, CRM oder Backend anzubinden.",
-      "successMessage": "Nachricht in der Oberfläche erfasst. Im nächsten Schritt wird sie an ein reales Versandsystem angebunden."
+      "helperText": "Wir antworten innerhalb von 24 Stunden.",
+      "successMessage": "Nachricht erfolgreich gesendet. Wir melden uns in Kürze.",
+      "errorMessage": "Beim Senden ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt an eduardo@lunalegallab.com."
     }
   },
   "footer": {

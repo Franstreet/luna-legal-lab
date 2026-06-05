@@ -17,16 +17,36 @@ const labelClass =
 export function ContactForm({ content }: ContactFormProps) {
   const [sending, setSending] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState(false);
 
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const form = event.currentTarget;
+    const data = new FormData(form);
+
     setSending(true);
-    setTimeout(() => {
+    setError(false);
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: data.get("name"),
+          email: data.get("email"),
+          message: data.get("message"),
+        }),
+      });
+
+      if (!res.ok) throw new Error("Send failed");
+
       form.reset();
-      setSending(false);
       setSubmitted(true);
-    }, 1500);
+    } catch {
+      setError(true);
+    } finally {
+      setSending(false);
+    }
   }
 
   return (
@@ -126,6 +146,15 @@ export function ContactForm({ content }: ContactFormProps) {
           className="rounded-2xl border border-secondary/30 bg-secondary/12 px-4 py-3 text-sm text-secondary"
         >
           {content.successMessage}
+        </p>
+      ) : null}
+
+      {error ? (
+        <p
+          aria-live="polite"
+          className="rounded-2xl border border-red-400/30 bg-red-400/10 px-4 py-3 text-sm text-red-300"
+        >
+          {content.errorMessage ?? "Ha ocurrido un error. Por favor, inténtelo de nuevo o contáctenos directamente por email."}
         </p>
       ) : null}
     </form>

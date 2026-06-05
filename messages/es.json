@@ -111,9 +111,21 @@
     "fullProfileCta": "Publicaciones y Artículos.",
     "award": "Premio Nacional de Ley 2021",
     "stats": [
-      { "value": 2, "suffix": "", "label": "Doctorados" },
-      { "value": 15, "suffix": "+", "label": "Años de trayectoria" },
-      { "value": 50, "suffix": "+", "label": "Publicaciones científicas" }
+      {
+        "value": 2,
+        "suffix": "",
+        "label": "Doctorados"
+      },
+      {
+        "value": 15,
+        "suffix": "+",
+        "label": "Años de trayectoria"
+      },
+      {
+        "value": 50,
+        "suffix": "+",
+        "label": "Publicaciones científicas"
+      }
     ],
     "pillars": [
       "Dictámenes e informes para estamentos oficiales y cuerpos policiales.",
@@ -203,8 +215,9 @@
       "messagePlaceholder": "Cuéntanos brevemente en qué podemos ayudarte.",
       "submit": "Enviar",
       "sending": "Enviando...",
-      "helperText": "Interfaz preparada para conectar email, CRM o backend cuando lo decidamos.",
-      "successMessage": "Mensaje capturado en la interfaz. El siguiente paso será conectarlo a un sistema real de envío."
+      "helperText": "Respondemos en menos de 24 horas.",
+      "successMessage": "Mensaje enviado correctamente. Le responderemos en breve.",
+      "errorMessage": "Ha ocurrido un error al enviar. Por favor, inténtelo de nuevo o escríbanos directamente a eduardo@lunalegallab.com."
     }
   },
   "footer": {
