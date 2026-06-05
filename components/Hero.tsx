@@ -125,7 +125,7 @@ export function Hero({ content, locale }: HeroProps) {
         </header>
 
         {/* Main content */}
-        <div className="grid flex-1 gap-14 pb-16 pt-10 lg:grid-cols-[minmax(0,1.12fr)_minmax(320px,0.88fr)] lg:items-start lg:gap-12 lg:pb-24 xl:items-center xl:pb-20 xl:pt-6">
+        <div className="grid flex-1 gap-14 pb-16 pt-10 lg:grid-cols-[minmax(0,1.12fr)_minmax(320px,0.88fr)] lg:items-start lg:gap-12 lg:pb-24">
           <div className="max-w-[46rem] lg:-mt-4">
             {/* Badge */}
             <div style={{ animation: "hero-entry 700ms 200ms cubic-bezier(0.16,1,0.3,1) both" }}>
@@ -187,7 +187,7 @@ export function Hero({ content, locale }: HeroProps) {
 
           {/* Focus card */}
           <div
-            className="flex flex-col gap-8 lg:max-w-[32rem] lg:self-start lg:pt-16 xl:pt-0"
+            className="flex flex-col gap-8 lg:max-w-[32rem] lg:self-start lg:pt-16"
             style={{ animation: "hero-entry 900ms 420ms cubic-bezier(0.16,1,0.3,1) both" }}
           >
             <div className="rounded-[2rem] border border-white/12 bg-white/6 p-8 backdrop-blur-sm">
