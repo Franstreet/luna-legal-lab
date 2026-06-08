@@ -89,7 +89,7 @@ export function AboutLawyer({ content, locale }: AboutLawyerProps) {
                   {content.fullProfileCta}
                 </a>
                 <a
-                  href="https://docs.google.com/document/d/1C2i6yrFUs8WCaLkukikqUbTn4u80IvU_/edit?usp=sharing"
+                  href="https://docs.google.com/document/d/1yE2bzvAwhGLOQm9VjMMotakMaArPMTNq/edit?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex w-fit items-center justify-center gap-2 rounded-full border border-primary/14 bg-white/80 px-6 py-3 text-sm font-semibold text-primary shadow-[0_16px_40px_rgba(63,23,31,0.05)] hover:-translate-y-0.5 hover:border-primary/24 hover:bg-white"
