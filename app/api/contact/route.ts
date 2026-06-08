@@ -28,7 +28,7 @@ export async function POST(request: Request) {
   try {
     const { error } = await resend.emails.send({
       from: "Luna Legal Lab <contacto@lunalegallab.com>",
-      to: "eduardo@lunalegallab.com",
+      to: "lunalegallab@gmail.com",
       replyTo: email,
       subject: `Consulta de ${name} — Luna Legal Lab`,
       text: `Nombre: ${name}\nEmail: ${email}\n\nMensaje:\n${message}`,
