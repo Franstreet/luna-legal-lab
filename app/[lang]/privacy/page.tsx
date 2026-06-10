@@ -206,7 +206,7 @@ export default async function PrivacyPage({ params }: Props) {
           </div>
         </div>
       </main>
-      <Footer content={dictionary.footer} />
+      <Footer content={dictionary.footer} lang={lang} />
     </>
   );
 }

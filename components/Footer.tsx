@@ -1,17 +1,12 @@
-"use client";
-
-import { usePathname } from "next/navigation";
-
 import type { Dictionary } from "@/lib/i18n";
 
 type FooterProps = {
   content: Dictionary["footer"];
+  lang?: string;
 };
 
-export function Footer({ content }: FooterProps) {
+export function Footer({ content, lang = "es" }: FooterProps) {
   const year = new Date().getFullYear();
-  const pathname = usePathname();
-  const lang = pathname.split("/")[1] ?? "es";
   const copyright = content.copyright.replace("{year}", String(year));
   const phoneNumbers = content.phone
     .split("\n")

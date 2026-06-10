@@ -81,7 +81,7 @@ export default async function Home({ params }: LangPageProps) {
         <Conferences content={conferencesContent} />
         <Contact content={dictionary.contact} />
       </main>
-      <Footer content={dictionary.footer} />
+      <Footer content={dictionary.footer} lang={lang} />
     </>
   );
 }
