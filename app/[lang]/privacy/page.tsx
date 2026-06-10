@@ -51,7 +51,7 @@ const content: Record<string, {
       },
       {
         heading: "6. Sus derechos",
-        body: "Puede ejercer en cualquier momento sus derechos de acceso, rectificación, supresión, portabilidad, limitación y oposición enviando un correo a eduardo@lunalegallab.com con el asunto «Derechos RGPD». Tiene también derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es).",
+        body: "Puede ejercer en cualquier momento sus derechos de acceso, rectificación, supresión, portabilidad, limitación y oposición enviando un correo a eduardo@lunalegallab.com con el asunto 'Derechos RGPD'. Tiene también derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es).",
       },
       {
         heading: "7. Cookies",
@@ -119,7 +119,7 @@ const content: Record<string, {
       },
       {
         heading: "6. Ihre Rechte",
-        body: "Sie können jederzeit Ihre Rechte auf Auskunft, Berichtigung, Löschung, Datenübertragbarkeit, Einschränkung und Widerspruch ausüben, indem Sie eine E-Mail an eduardo@lunalegallab.com mit dem Betreff „DSGVO-Rechte" senden. Sie haben außerdem das Recht, eine Beschwerde bei der zuständigen Aufsichtsbehörde einzureichen.",
+        body: "Sie können jederzeit Ihre Rechte auf Auskunft, Berichtigung, Löschung, Datenübertragbarkeit, Einschränkung und Widerspruch ausüben, indem Sie eine E-Mail an eduardo@lunalegallab.com mit dem Betreff 'DSGVO-Rechte' senden. Sie haben außerdem das Recht, eine Beschwerde bei der zuständigen Aufsichtsbehörde einzureichen.",
       },
       {
         heading: "7. Cookies",
@@ -153,7 +153,7 @@ const content: Record<string, {
       },
       {
         heading: "6. I suoi diritti",
-        body: "Può esercitare in qualsiasi momento i diritti di accesso, rettifica, cancellazione, portabilità, limitazione e opposizione inviando un'e-mail a eduardo@lunalegallab.com con oggetto «Diritti GDPR». Ha inoltre il diritto di proporre reclamo all'autorità di controllo competente.",
+        body: "Può esercitare in qualsiasi momento i diritti di accesso, rettifica, cancellazione, portabilità, limitazione e opposizione inviando un'e-mail a eduardo@lunalegallab.com con oggetto 'Diritti GDPR'. Ha inoltre il diritto di proporre reclamo all'autorità di controllo competente.",
       },
       {
         heading: "7. Cookie",
