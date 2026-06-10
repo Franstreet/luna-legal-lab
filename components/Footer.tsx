@@ -1,3 +1,7 @@
+"use client";
+
+import { usePathname } from "next/navigation";
+
 import type { Dictionary } from "@/lib/i18n";
 
 type FooterProps = {
@@ -6,6 +10,8 @@ type FooterProps = {
 
 export function Footer({ content }: FooterProps) {
   const year = new Date().getFullYear();
+  const pathname = usePathname();
+  const lang = pathname.split("/")[1] ?? "es";
   const copyright = content.copyright.replace("{year}", String(year));
   const phoneNumbers = content.phone
     .split("\n")
@@ -77,7 +83,15 @@ export function Footer({ content }: FooterProps) {
       <div className="border-t border-white/8">
         <div className="mx-auto flex w-full max-w-6xl flex-col gap-3 px-6 py-5 text-sm text-white/45 sm:px-8 lg:flex-row lg:items-center lg:justify-between lg:px-12">
           <p>{copyright}</p>
-          <p>{content.note}</p>
+          <div className="flex flex-wrap gap-4">
+            <p>{content.note}</p>
+            <a
+              href={`/${lang}/privacy`}
+              className="hover:text-white/70 transition-colors"
+            >
+              {content.privacyLink}
+            </a>
+          </div>
         </div>
       </div>
     </footer>
